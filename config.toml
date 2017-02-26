@@ -141,7 +141,7 @@ canonifyurls = true
   # Otherwise put your image in folder `static/_images/` (development)  or in `source/assets/images/` if you can't o
   # and use relative url : `your-image.png`
   # coverImage = "https://c1.staticflickr.com/1/471/32142806100_959caa3118_c.jpg"
-  coverImage = "cover.jpg"
+  coverImage = "https://c1.staticflickr.com/1/719/32316112353_bfe616c4bd_b.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
