@@ -1,0 +1,49 @@
+---
+author: yamila
+comments: true
+date: 2015-03-23 18:37:13+00:00
+layout: post
+slug: kosdem-2015
+title: KOSDEM 2015
+wordpress_id: 812
+categories:
+- General
+tags:
+- kaleidos.net
+- kosdem
+- motivation
+- open source
+---
+
+Kosdem is the annual meeting with all the employees of [Kaleidos](http://kaleidos.net); once a year, we go to the country to make a retrospective and set the intention for the next year. This 2015, we went to Valle de Iruelas, which looks like this:
+
+![valle-iruelas](/images/2015/03/valle-iruelas.jpg)
+
+<!-- more -->
+_KOSDEM_ stand for _Kaleidos OpenSpace Define&Embrace; Meeting_ (we are not very proud of the name, but it's ours, and it will stand with us ;-)). Some important things about Kosdem:
+- all employees are meant to be there. We choose the dates to be all there. It's a must for us, like [Piweek](http://www.piweek.com)
+- everyone has a voice; we can show our opinion no matter how long have we been in Kaleidos or our position in the company
+- as we are working in the company we want to, we make decisions together.
+
+Kosdem starts with a retrospective. We checked the decisions we made last year: more flexibility (3 days per week of remote working, coincidence time), Kaleidos abroad, Front Quality... And we also checked if we have accomplished the decisions.
+
+One important thing we saw last year was that the dynamic to discuss the topics ([Fishbowl](http://en.wikipedia.org/wiki/Fishbowl_%28conversation%29)) wasn't enough: it didn't help to go deep with the topics and, most important, it didn't help to show all the opinions, because some colleagues found difficult to became the center of attention and talk to everyone. So for this year we tried [World Café](http://en.wikipedia.org/wiki/World_Caf%C3%A9_%28conversational_process%29). The dynamic wasn't perfect, and we would like to improve it, but it worked very good with the shy ones.
+
+Which **topics** were talked? This is my selection:
+
+![kosdem](/images/2015/03/kosdem.jpg)
+
+_Team growth_ This year we have enlarged our team with new profiles, design and UX, and we have to learn how to work together.
+
+_Open source_ as it stands in our name, we are an Open Source company. What does it mean? We talked about open source in the tools we use every day: what if I don't have/know any open tool to develop my work? what if the open tools are far away from the propietary ones? We use to talk about a red line, which is a very difficult line to define (each person could have a different _red line_).
+
+We also discussed about the opportunities of contribution: the ones of Kaleidos who are used to open source community should help other to learn how to contribute, opensourcing code whenever it's possible, giving talks, hosting meetups...
+
+_Communication_ This was bitter for me. I discovered that some opinions (still) remain hidden because some colleagues don't dare to talk. This has to be with two main facts (as we detected):
+- some people are shy and may think their opinions will not be listened
+- some people are aggresive (in their communications!) which doesn't help the first ones to take a step forward
+For me is bitter because it's not new; for this year, we will try again to adjust this imbalance.
+
+I could also talk to some of my colleagues of some concerns I had and the result was awsome: understading and good advices. The main feeling was amazing: we are commited to improve ourselves and Kaleidos. Now we have the whole 2015 to achieve our purposes. Of course, we also had hicking, mojitos and board games ;-)
+
+Do you have similar practices in your companies? Which dynamics do you use to share opinions? which topics? Any comment will be welcome!

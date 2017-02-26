@@ -1,0 +1,58 @@
+---
+author: yamila
+comments: true
+date: 2013-01-13 13:13:15+00:00
+layout: post
+slug: retro-del-ano-2012
+title: Retro del año 2012
+wordpress_id: 44
+categories:
+- Metodology
+tags:
+- agile
+- retro
+- scrum
+---
+
+![](http://agile.conscires.com/wp-content/uploads/2011/06/happy-retro.jpg)
+
+Dadas las fechas en que este blog ve la luz, aprovecho para inaugurar los contenidos con una retro del 2012 en el contexto puramente profesional. Es importante hacerlo con cierto orden para evitar caer en nuestros sesgos (negativos normalmente) y para procurar que lo reciente no eclipse lo remoto.
+<!-- more -->
+
+
+### Qué fue bien. **:)**
+
+
+- **ser feliz en mi trabajo**: día a día siento que me encanta lo que hago y el equipo con quien comparto el trabajo.
+- asistir **congresos / eventos**: FOSDEM, Codemotion y CAS.
+- incorporar **nuevas tecnologías**: me animé a probar [ArchLinux](https://www.archlinux.org/) con [Dwm](http://dwm.suckless.org/); he descubierto el valor de una documentación buena; en la ofi nos pasamos a [Git](http://git-scm.com/) y fue otro gran descubrimiento.
+- seguir con _**el agile**_: en [Kaleidos](http://kaleidos.net) nos está yendo muy bien con las metodologías ágiles, y siempre hay margen para la mejora; así que vamos a seguir iterando sobre nuestros procesos.
+
+
+
+### Qué no fue tan bien. **:(**
+
+
+- falta de **asertividad**: aunque soy una persona muy predispuesta, a veces no me expreso de la forma más asertiva posible.
+- **aportar código** a la comunidad: hay muchas formas de aportar a la comunidad (sobre todo si es la de software libre!!), pero reconozco que me gustaría poder poner alguna línea de código útil fuera de los proyectos en mi empresa.
+
+
+
+### Qué me reconozco a mí misma. **⚘**
+
+
+- **menos resistencia al cambio**: En el último año me da menos miedo entrar en una zona de poco confort y ponerme a desentrañar dudas y a buscar soluciones nuevas.
+- **mejora tecnológica**: no es tanto lo que he aprendido de un lenguaje, como que he mejorado mi inercia de aprendizaje. Y claro, cuento siempre con la inestimable ayuda de mis compañeros.
+- **Tu tasa de paro**. Es el proyecto de la [Piweek](http://piweek.es/) en el que participé y que a finales de enero tendremos ya listo. Stay tuned!
+
+
+
+### Qué me propongo para el 2013. ***-:)**
+
+
+- **formación** técnica: mongo (curso), vim (adoptado como único editor ya), libros tecnológicos... Hay muchísimo que aprender y lo importante es no perder el empuje...
+- **python**: es mi lenguaje de referencia; 2013 va a ser el año de python3 así que tengo que ponerme al día con la nueva versión.
+- **inglés**: mi propósito es consolidar la tendencia de 2012, con los english breakfast, los bowler-hat pomodoros u otros sistemas. También añadir más lecturas en inglés.
+- participar más y más activamente en la **comunidad**: este blog, por ejemplo; asistir a todas las reuniones de python-madrid y aportar en la PyconEs.
+
+También planeo dominar el mundo pero esto mejor en otro post ;-)

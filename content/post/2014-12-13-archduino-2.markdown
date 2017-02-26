@@ -1,0 +1,39 @@
+---
+author: yamila
+comments: true
+date: 2014-12-13 10:46:47+00:00
+layout: post
+slug: archduino-2
+title: Archduino
+wordpress_id: 638
+categories:
+- Open source
+- Tutorials
+tags:
+- archlinux
+- arduino
+- open source
+---
+
+Previously in [Archduino](http://moduslaborandi.net/archduino), how to configure permissions to run Arduino IDE in an ArchLinux. Today a new _protip_ related to the 1.5.8 version.
+<!-- more -->
+
+This error appeared to me when running Arduino IDE (1.5.8) with an Arduino Yun:
+
+
+
+
+    error while loading shared libraries: libtinfo.so.5:
+
+
+
+
+Well, if you [RTFM]() (read the fine manual), in the [ArchWiki](https://wiki.archlinux.org/index.php/arduino), there is a simple solution:
+
+
+
+
+    Solve the dependency problem by creating a symbolic link
+     $ cd /usr/lib
+     $ sudo ln -s libncurses.so.5 libtinfo.so.5
+

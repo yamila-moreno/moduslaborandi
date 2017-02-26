@@ -1,0 +1,97 @@
+---
+author: yamila
+comments: true
+date: 2014-06-15 19:11:31+00:00
+layout: post
+slug: kosdem-2014
+title: KOSDEM 2014
+wordpress_id: 434
+categories:
+- General
+- Open source
+tags:
+- kaleidos.net
+- kosdem
+- motivation
+- my modus
+---
+
+_Kosdem_ es la reunión anual de [Kaleidos](http://kaleidos.net) en la que todos los empleados vamos a una casa rural, lejos del mundanal ruido, para decidir cómo queremos que sea Kaleidos en el próximo año.
+
+Según [Pablo](http://kaleidos.net/761CEC/), CEO de Kaleidos, _Kosdem_ ["stands for Kaleidos OpenSpace Define&Embrace; Meeting"](http://www.kaleidos.net/blog/8/kosdem-2013-the-kaleidos-we-want-for-2013/) (cito textualmente porque me da la risa con el nombrecico).
+
+Efectivamente planteamos el _Kosdem_ como un Open Space donde tratar los temas que creemos clave o que queremos potenciar de cara al futuro.
+
+<figure>
+  <img src="/images/2014/06/rev-kosdem.jpg"
+       alt="Diría que normalmente no parecemos un hatajo de locos, pero no sería exactamente cierto..." />
+  <figcaption>Diría que normalmente no parecemos un hatajo de locos, pero no sería exactamente cierto...</figcaption>
+</figure>
+
+<!-- more -->
+
+
+
+## El evento
+
+
+
+Organizamos el evento como un **Open Space**, donde tenemos una primera sesión de proponer temas, agruparlos y votarlos. En teoría, podríamos hacer varios tracks y juntarnos en función de nuestros intereses. En la práctica, nos apetece tratar estos temas que nos parecen tan importantes juntos, y contar con las voces de todos a la hora de pensar en acciones de concretas.
+
+¿Las voces de todos? Bueno, si habéis pasado alguna vez por nuestras oficinas, sabréis que "las voces de todos" puede ser un poco demasiado para lo que vienen siendo los límites de la audición. _Vigorosos_ dicen unos. _Escandalosos_ otros más sensatos.
+
+Sabiendo que si todos hablábamos a la vez sería un [guirigay](http://lema.rae.es/drae/?val=guirigay), usamos el sistema de [**silla caliente**](http://en.wikipedia.org/wiki/Fishbowl_(conversation)) y un time-boxing estricto.
+
+Aun así, no tuvimos tiempo de ver todos los temas, sobre los que volveremos en otros momentos...
+
+
+
+## Los temas
+
+
+
+Hubo muchos temas y muy interesantes. Hay dos aspectos que para mí son cruciales: **no hay temas tabú** y **nos llegamos a plantear los límites éticos de lo que hacemos**. Gracias a esto, pudimos tratar temas más mundanos:
+
+- horario europeo y trabajo en remoto
+- ampliación del stack tecnológico
+- más atención al equipo de front
+- formación kaleider
+
+junto a otros más sensibles:
+
+- nuestra contribución como empresa al software libre
+- ¿qué clientes queremos? ¿podemos rechazar clientes si atenta contra nuestra ética?
+- objeción de conciencia
+- ¿cuál es nuestro papel en la sociedad? Hubo un tema sobre cómo integrar Kaleidos dentro del movimiento de [economía del bien común](http://economia-del-bien-comun.org/es)
+- ¿cómo es que nuestra muestra poblacional es tan radicalmente "hombre blanco occidental de treinta y tantos"? ¿Es algo que debamos tratar? ¿Está en nuestra mano?
+
+Estos temas surgieron de todos los compañeros de Kaleidos. Representan nuestras inquietudes y nuestros deseos. Y si hubo temas y conversación es porque nos sentimos muy involucrados en el devenir de Kaleidos.
+
+
+
+## El ReV
+
+
+
+La guinda del jueves la tuvimos por la noche, cuando, mientras cenábamos (a las 20, algo ya nos teníamos que oler), aparecieron un doctor y una enfermera para contarnos que estábamos en un centro psiquiátrico. _Como la vida misma, vamos_.
+
+Así que jugamos un [rol en vivo](http://es.wikipedia.org/wiki/Rol_en_vivo) gracias a [Despertalia](http://www.despertalia.com/). Impresionante la puesta en escena de Miguel Ángel. Algunos compañeros no conocían esta actividad, pero todos se metieron perfectamente en su papel y salió un ReV muy chulo.
+
+Yo hacía de loca. No hay mucho más que comentar ;-)
+
+
+
+## Mi retro
+
+
+
+**Lo bueno**: Hemos mejorado respecto al año pasado en este evento. Hemos llegado a más acciones concretas, a más conclusiones en menos tiempo y con mucha menos controversia retórica. Los nuevos kaleiders se sintieron muy implicados en este _kosdem_ y eso significa que lo estamos haciendo bien.
+**Lo malo**: Seguimos sin ser el mejor club de debate del mundo, así que nos repetimos y no siempre sabemos expresarnos bien. Además, se quedaron temas interesantes en el tintero.
+**La flor**: Para la tríada (CEO, CIO y CTO) por seguir apostando por una empresa que montamos entre todos. A nuestro compi [Dani](http://kaleidos.net/71A6D2/) por proponer el ReV. A los que no siempre hablan, pero que hablaron. A los nuevos compis por tirar como si estuvieran aquí desde el día uno. A los que están desde el día uno por seguir tirando con la misma energía...
+**Ideas**: viendo que el ReV tuvo tan buena acogida, apunté tangencialmente la opción de tener un "día kaleider" institucionalizado y patrocinado. Porque entre los cumples, las celebraciones de proyectos, los desayunos "porque sí" parece que aún seguimos con ganas de vernos las caras ;-).
+
+
+**Compis, es un verdadero lujo trabajar con vosotros y seguir aprendiendo día a día en Kaleidos =)**
+
+
+

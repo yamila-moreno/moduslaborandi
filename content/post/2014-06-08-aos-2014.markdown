@@ -1,0 +1,83 @@
+---
+author: yamila
+comments: true
+date: 2014-06-08 22:14:44+00:00
+layout: post
+slug: aos-2014
+title: AOS 2014
+wordpress_id: 415
+categories:
+- Metodology
+tags:
+- agile
+- motivation
+- my modus
+- scrum
+---
+
+Este pasado fin de semana fue el [AOS 2014](http://aos2014.agile-spain.org), _Agile Open Space_, el _open space_ más importante sobre agilismo en España. Fui _engañadísima_ por mi compi [Toño](http://twitter.com/adelatorrefoss), nuestro agile coach en [Kaleidos](http://kaleidos.net), y que siempre está detrás de mejorar los procesos internos.
+
+<figure>
+  <img src="/images/2014/06/aos-2014.jpg"
+       alt="Se ve claramente que fui obligada y lo mal que lo estoy pasando en el césped hablando de personas, procesos y valores..." />
+  <figcaption>Se ve claramente que fui obligada y lo mal que lo estoy pasando en el césped hablando de personas, procesos y valores...>
+</figure>
+
+Si no sabes qué es un _open space_, hay un [montón](http://www.proyectosagiles.org/que-es-open-space) de [sitios](http://es.wikipedia.org/wiki/Desconferencia) donde podrás aprender sobre este formato de (no)conferencia.
+
+<!-- more -->
+
+
+
+## Formar los paneles
+
+
+
+El Open Space comienza formando los paneles. Consiste en que quien quiera puede proponer uno o varios temas que le interesan tratar. Tras la presentación, se votan lo más interesantes para los asistentes, y se ordenan por votos. Después se monta un panel con las elegidas y esto más o menos configura el horario del open space.
+
+**Lo bueno** de este sistema es que salen muchos temas y da pie a que se compartan muchas experiencias que pueden resultar útiles. Se dan diálogos que son más difíciles de encontrar en las _típicas charlas magistrales_. **Lo malo** de este sistema es que se tarda mucho y configurar el horario es muy complicado.
+
+**Propuestas de mejora**:
+- hacer que cada presentación tenga máximo 30 segundos (estrictos)
+- hacer que los colores de los postits sean semánticos. Por ejemplo, color rosa para temas técnicos, color verde para dinámicas de comunicación, color azul para prácticas ágiles (son un ejemplo...). De esta forma se pueden pre-establecer tracks en función del color.
+
+
+
+## Las charlas a las que fui
+
+
+
+- **Agile 101**: la dieron [Carlos](http://twitter.com/CarlosTheSailor) y [Marc](http://twitter.com/Cramtirolf): liturgias, roles, artefactos. _Hacer_ agile vs _ser_ agile. Backlog, historias de usuario, sprints... un recorrido sucinto y muy bueno sobre qué esto de SCRUM. Me gustó mucho reoír ciertos conceptos.
+- **Potenciando equipos con dibujos**: la dio [Israel](http://twitter.com/ialcazar) y consistió en una dinámica para ver algunas ventajas de usar dibujos como medio de expresión. Me pareció muy interesante aunque mis habilidades para el dibujo son más bien _poco figurativas_.
+- **Aprende a decir no**: la dio [Jerónimo](http://twitter.com/giropa832) y fue una dinámica en la que practicaríamos cómo decir "no" en ciertas situaciones. De esta me fui porque me sentí en una dinámica de autoayuda... Después me dijeron que me faltaba contexto para entenderla y esto es perfectamente posible.
+- **Agile y open source**: la dio [David](http://twitter.com/David_Baltha). Íbamos a hablar de cómo usar metodologías ágiles para gestionar un proyecto open source con sus peculiaridades. Como la inmensa mayoría de los asistentes no contribuyen ni sabían cómo hacerlo, la charla fue más bien un repaso a diversos aspectos sobre liberar y contribuir con el software libre. Como la temática me encanta, pues la charla me gustó, pero me quedé con ganas del tema en cuestión.
+- **Rescue Team**: la dieron [Miguel Ángel](https://twitter.com/elmendalerenda/), [Víctor](https://twitter.com/olareoun/) y [Jorge](https://twitter.com/semurat). Nos contaron su experiencia como equipo de emergencia: en un mes les tocó rescatar un proyecto que estaba tecnológicamente a la deriva. Nos contaron sus métodos, herramientas, aciertos y errores. Resultó muy interesante.
+- **Aprende más**: la dio [Pablo](http://twitter.com/pablojimeno). Venía a proponer algunas técnicas para mejorar nuestro rendimiento en el proceso de aprendizaje. La charla fue muy caótica y se desvió demasiado del tema, así que meh...
+
+**Lo bueno** de las charlas es que se comparten muchas experiencias. **Lo malo** es que son demasiado espontáneos y se pierde mucho el foco. **Para mejorar**, creo que los proponentes deberían ejercer más de moderadores o llevar preparado algún guión sobre el que conducir la charla.
+
+
+
+## Los deberes
+
+
+
+Cada vez tengo más claro que lo que más me disgusta de SCRUM es la cantidad de microgestioń del proceso a través de las herramientas: contar horas/puntos, estimar al detalle, llevar gráficas. Todo esto es necesario para comunicar ciertos conceptos que creemos que son útiles pero que en la práctica no aportan tanto a los proyectos.
+
+Cuanto mejor sea la comunicación con el resto del equipo (incluyo a todos los interesados, desde el equipo de desarrollo hasta el cliente), cuanto más transparentes seamos, y cuanto mejor hagamos llegar los **valores**, menos necesaria será esta microgestión.
+
+Así que mis deberes son, pues, mejorar mis habilidades de comunicación, para poder transmitir mejor cómo funciona un **buen** proyecto agile y hacer innecesaria esta microgestión
+
+
+
+## Conclusiones
+
+
+
+Creo que el esfuerzo de dedicar parte del finde no mereció la pena. Estas conversaciones las puedo tener acercándome a distintas comunidades ágiles en mi ciudad. Lo cierto es que no voy mucho, así que tal vez esta inversión un par de veces al año sea la mejor manera de tener estas conversaciones. Por supuesto, tuve alguna conversación interesante e incluso reveladora.
+
+Este formato _me_ resulta más útil en pequeños grupos que buscan algún _output_ conjunto, por ejemplo, en el Kosdem o en los open spaces de [Kaleidos](http://kaleidos.net).
+
+Me traigo la necesidad de tener la mente más abierta; tengo un montón de razones para ver que tal o cual estrategia no ha funcionado o prevea que no va a funcionar; pero esto **no me ayuda** a mejorar. En esta actitud no voy a encontrar ninguna solución, ni mágica ni costosa. Hace falta un ejercicio de creatividad y de tolerancia al fracaso para poder probar nuevas aproximaciones a las cuestiones que surjan sobre relación con el cliente, de gestión del proyecto, de comunicación del equipo, etc.
+
+

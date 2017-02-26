@@ -1,0 +1,48 @@
+---
+author: yamila
+comments: true
+date: 2013-12-02 13:19:13+00:00
+layout: post
+slug: pycones-2013
+title: PyConES 2013
+wordpress_id: 357
+categories:
+- General
+---
+
+Este año he participado en la organización de [PyConES](http://2013.es.pycon.org), el primer evento en torno a Python que organiza la recién creada asociación Python España. Durante un fin de semana, nos reunimos unas 330 personas para asistir a las más de 40 charlas de variada temática.
+<!-- more -->
+De las charlas y del resultado ya hablan otros que vivieron el evento como asistentes; como co-organizadora, la experiencia ha sido intensa. En enero comenzamos a buscar lugar, y empezamos a pensar en los tracks; después vinieron el logo, la web, el call4papers, el catering, grabación, alojamientos, patrocinadores, regalos... En algún momento fue verano, pero esto nos lo tuvieron que contar :)
+
+Estamos preparando un post-mortem con muchísima información sobre presupuestos y operativa. Confío en que será útil para que el equipo organizador de la próxima PyConES no cometa los mismos errores (y pueda inventarse algunos nuevos) y para que reaprovechen las buenas ideas que han surgido.
+
+Personalmente ha sido un reto; allá por enero me puse algunos objetivos para el 2013; muchos de ellos quedaron sepultados porque PyConES es un objetivo exigente y decidí que quería poner mi tiempo y dedicación en ayudar a que saliera bien. Uno de los objetivos era participar más en la comunidad de Python así que ahí hago check!
+
+Y mi pequeña y **personal** retrospectiva:
+**1. Lo malo**
+
+- organizar PyConES requiere muchísima dedicación; esto se traduce en mucha gente colaborando o poca gente haciendo realmente mucho. En los últimos meses, mi vida social era básicamente twittear con la cuenta oficial de [@PyConES](http://twitter.com/PyConES)
+- considero que fallé al animar a los voluntarios; no supe dar con la fórmula por la cual la gente se implicara/comprometiera con las exigencias de organización (sobre todo en dedicación de tiempo a **largo plazo**)
+- en línea con lo anterior: tampoco supe atomizar correctamente las tareas para poder soltarlas con facilidad cuando algún espontáneo se acercara. Dividirlas es un esfuerzo titánico, así que al no hacerlo, muchas tareas estaban muy muy acopladas al _conocimiento arcano_ que da estar desde el día 1 metida en la organización; y por lo tanto se hace difícil delegarlas. La consecuencia fue que llegó un momento (sobre todo al final) en que para participar había que acoplarse a un torrente de correos difícil de digerir así de buenas a primeras.
+
+**2. Lo (muy) bueno**
+
+- ha sido un reto a mi capacidad organizativa: he salido viva (#win) y creo que el resultado final gustó (#win #win)
+- he conocido mucha gente muy buena: alguno estuvo ahí a las 3am peleando contra Heroku, y otros pasaban por aquí e hicieron un logo, un panfleto o una traducción. Otros contestaron un correo con dudas existenciales (o no tanto). Me encantaría tomarme una cerve tranquila con todos ellos.
+- hemos montado PyLadies Spain. Un grupo pequeño, pero con muchas ganas. Hacía falta.
+- tengo muchas ganas de seguir programando y aprendiendo Python.
+
+**3. Ideas**
+
+- las ideas importantes llegarán al post-mortem así que allí las pondremos de forma ordenada
+
+**4. Flores**
+
+- A [Alberto Chamorro](http://twitter.com/ach4m0). Porque es compi de organización alucinante.
+- A los [Pybonacci](http://twitter.com/Pybonacci) por dar el callo en el equipo.
+- A los [patrocinadores](http://2013.es.pycon.org/#patrocinadores). Superaron con creces nuestras expectativas lo que nos permitió mejorar mucho la calidad del evento.
+- A los voluntarios que anduvieron desde por la mañana echando una mano a costa de perderse charlas.
+- A los asistentes que decidisteis que, desde lejos o cerca, merecía la pena dedicar el finde a un evento de Python.
+
+¡Nos vemos en PyConES 2014! ^_^
+

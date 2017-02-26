@@ -1,0 +1,41 @@
+---
+author: yamila
+comments: true
+date: 2013-02-04 23:08:03+00:00
+layout: post
+slug: fosdem-2013
+title: FOSDEM 2013
+wordpress_id: 239
+categories:
+- General
+- Open source
+tags:
+- fosdem
+- kaleidos.net
+- my modus
+- open source
+- python
+---
+
+[![fosdem2013](/images/2013/02/fosdem2013.png)](https://fosdem.org/)
+
+[FOSDEM](https://fosdem.org/) is the most important free and open source software developers' meeting in the world. It gathers in the [ULB](http://www.ulb.ac.be/) developers (about 5K according to the organizers) from all Europe for 2 intense days. Seven tracks and thirty dev rooms: security, community, python, nosql, cross distro... 474 speakers and 486 sessions ([sat](https://fosdem.org/2013/schedule/day/saturday/), [sun](https://fosdem.org/2013/schedule/day/sunday)), all of them around open source.
+
+**AND IT'S FREE!!**
+<!-- more -->
+This is the second time I attend the event, and it's an amazing experience. The atmosphere was great, with people coding everywhere and poking around, sessions all the time (it was difficult to choose the talk), stands with merchandising and tons of conversation in the halls. On Saturday nigth, [@_superalex_](https://twitter.com/_superalex_) decided that this blog had to be served with an [nginx](http://nginx.org/) (instead of previous [Apache](http://www.apache.org/)) inspired by [this talk](https://speakerdeck.com/helgi/nginx-and-php-match-made-in-heaven) and so he did!!
+
+To sum up the good stuff:
+- lots of sessions with quite good average quality
+- wifi in the whole campus
+- Beer event (Friday nigth); I missed this year, but it's a terrific party, with belgian beer!
+- staff and organizers in every room helping when needed
+- the projectors and the sound worked perfectly
+- good problem-solving capacity when some speakers couldn't be there and organizers had to improvise
+
+To improve next time (IMHO):
+- tracks organization: on Saturday there were many community-centered talks and almost all pure-development talks were on Sunday; I think it could be better distributing them all over the weekend so every attendant profile would be covered
+- the address is [ambiguous](https://maps.google.com/maps?q=ULB+Campus+Solbosch+50,+Avenue+Franklin+D.+Roosevelt+1050+Bruxelles&hl=es&ie=UTF8&ll=50.809189,4.302864&spn=0.195469,0.527687&sll=50.81445,4.385433&sspn=0.048862,0.131922&t=h&hq=ULB+Campus+Solbosch+50,+Avenue+Franklin+D.+Roosevelt&hnear=1050,+Regi%C3%B3n+de+Bruselas-Capital,+B%C3%A9lgica&z=12&iwloc=A) and we get lost on Saturday, so we missed the tracks in the morning. Well, we founded "The fellowship of the FOSDEM" and it wasn't so bad ;-)
+- better measurement of the rooms: Python, PostgreSQL were to small, while others had too many seats
+
+Besides, I had the pleasure of talking with people of the [PSF](http://www.python.org/psf/) ([join us!](https://psfmember.org/)) who gave me great advices on organizing events. The most remarkable thing for me was noticing **open source enjoys good health**: many people willing to share and be free!!

@@ -1,0 +1,33 @@
+---
+author: yamila
+comments: true
+date: 2014-08-11 14:54:18+00:00
+layout: post
+slug: lunes
+title: Lunes
+wordpress_id: 544
+categories:
+- Metodology
+post_format:
+- Aside
+tags:
+- mondays
+---
+
+Nota muy breve para poner mi atención sobre un consejo que me dieron hace no demasiado pero que está resultando extremadamente útil:
+
+
+
+
+    Los lunes no tomes decisiones importantes.
+
+
+
+
+Los lunes intento no planificar demasiado (reconozco que esta me cuesta mucho), no decidir sobre temas serios, ni mantener conversaciones importantes, ya sean personales o laborales. Si es posible, es mejor no tener fin de sprint un lunes.
+
+Los lunes son para tomárselos con perspectiva y distancia. Lo que sucede el lunes, el martes no tiene tanta importancia. Las elecciones importantes de los lunes tienen muchas papeletas para verse como malas decisiones antes de terminar la semana.
+
+Os animo a que probéis: los lunes se arranca la semana con cualesquiera de las mil tareas que tenemos siempre, pero intentad dejar algunas decisiones hasta el martes.
+
+**¡Y a por la semana que comienza!**

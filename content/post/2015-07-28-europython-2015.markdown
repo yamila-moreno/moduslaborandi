@@ -1,0 +1,91 @@
+---
+author: yamila
+comments: true
+date: 2015-07-28 20:37:26+00:00
+layout: post
+slug: europython-2015
+title: EuroPython 2015
+wordpress_id: 891
+categories:
+- Open source
+tags:
+- djangogirls
+- motivation
+- open source
+- pyladies
+- python
+---
+
+This past week I attended EuroPython 2015 in Bilbao. A whole week of talks, workshops and social events around the Python ecosystem. I enjoyed the conference, learned a bunch of new things, taught a few of them, and mostly, laughed and shared with other pythonistas.
+
+![europython-2015-logo-white-bg](/images/2015/07/europython-2015-logo-white-bg.png)
+<!-- more -->
+
+
+
+## DjangoGirls
+
+
+
+On monday, I participated in the awesome [DjangoGirls](https://djangogirls.org/europython2015/) as a coach!
+
+[![djangogirls](/images/2015/07/djangogirls.jpg)](http://blog.djangogirls.org/)
+
+It was a great experience to go through this [amazing tutorial](http://tutorial.djangogirls.org/en/index.html) (seriously, this is good stuff) with Caroline, Kelly and María. They three learnt a lot, and soon they were helping each other if I was busy. I feel so proud of my group. **You rock ladies! **.  You can read this [retrospective](http://blog.djangogirls.org/post/125007638798/europython2015) written by Mikey Ariel ([@thatdocslady](https://twitter.com/thatdocslady)).
+
+
+
+## My talks
+
+
+
+I gave two talks (YAY!); in fact, it was the **same** talk in english and spanish. I was preparing both for quite a long time, practicing my english pronunciation (this didn't finish exactly as a success) as well as improving the content. I had good questions and a very good feedback, so for me it was a good experience. The two versions of the talk, in [english](https://www.youtube.com/watch?feature=player_detailpage&v=RJkyPpH3QN4#t=2940) and [spanish](https://www.youtube.com/watch?feature=player_detailpage&v=THHLssR4HZ8#t=8265).
+
+
+
+## The conference
+
+
+
+I also attended lots of talks, with different levels. Because this is my blog, I'm highlighting these talks:
+
+
+
+* [Todo es una trampa](https://www.youtube.com/watch?feature=player_detailpage&v=WHDTW9lxyqw#t=3288) (by @jespinog)
+* [Playing with CPython objects](https://www.youtube.com/watch?feature=player_detailpage&v=mHVU0rm-YXE#t=135) (by @jespinog)
+* [Extending and embedding ansible with Python](https://www.youtube.com/watch?feature=player_detailpage&v=_4hPAIFZtYg#t=2016) (by @lekum)
+* [Opening C-Python built-in clases](https://www.youtube.com/watch?v=22CKrkMeNqE&feature=youtu.be&t=3h56m10s) (by @jespinog)
+* [Argentina en Python](https://www.youtube.com/watch?feature=player_detailpage&v=22CKrkMeNqE#t=15234) (by @cynpy)
+* [Efficient allocation of space](https://www.youtube.com/watch?feature=player_detailpage&v=FI43TJtoRxY#t=13135) (by @nip3o)
+* [How to become an exceptional programmer](https://www.youtube.com/watch?feature=player_detailpage&v=FI43TJtoRxY#t=14526)
+
+
+
+But for the first time, I spent part of my time out of the rooms, talking with people, helping them when I could or being taught (thanks for [this](https://github.com/uxbox/front/pull/36), [Jesús](http://twitter.com/jespinog)).
+
+<figure>
+  <img src="/images/2015/07/mentor.jpg"
+       alt="I was given this badge and I proudly showed it during the conference :D" width="500px" />
+  <figcaption>I was given this badge and I proudly showed it during the conference :D</figcaption>
+</figure>
+
+
+## The organization
+
+
+
+The organization worked really well:
+
+* the venue (Palacio Euslakduna) was a very nice and confortable place
+* the food could be better (there is a max amount of croquettes that any human can eat!)
+* the schedule was strictly followed, which is very important
+* the talks were streamed and recorded
+* the sponsors were instrusive (how not!) but not as much as I was expecting
+
+So, as a conclusion: it was a very good conference; I'm very grateful for all the time shared with the colleagues of [ticketeaeng](http://twitter.com/ticketeaeng), [eFrontiers](http://twitter.com/e_frontiers target=), [Doraly](http://twitter.com/dynavarro), [Cyn](http://twitter.com/cynpy), [Alex](http://twitter.com/lekum), [Alejandro](http://twitter.com/ae_bm), [Jesús](http://twitter.com/jespinog), and many others!!
+
+<figure>
+  <img src="/images/2015/07/alterpintxos.jpg" width="600px"
+       alt="Thank you folks for the laugh!! ^_^" />
+  <figcaption>Thank you folks for the laugh!! ^-^</figcaption>
+</figure>
