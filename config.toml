@@ -78,12 +78,12 @@ canonifyurls = true
 #  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
 #  url = "/#about"
 #
-#[[menu.links]]
-#  weight = 0
-#  identifier = "github"
-#  name = "GitHub"
-#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-#  url = "https://github.com/kakawait"
+[[menu.links]]
+  weight = 0
+  identifier = "github"
+  name = "GitHub"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/yamila-moreno"
 #[[menu.links]]
 #  weight = 1
 #  identifier = "stackoverflow"
