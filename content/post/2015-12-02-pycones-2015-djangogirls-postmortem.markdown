@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-12-02 18:55:58+00:00
-layout: post
 slug: pycones-2015-djangogirls-postmortem
 title: 'PyConES 2015: DjangoGirls Postmortem'
 wordpress_id: 984

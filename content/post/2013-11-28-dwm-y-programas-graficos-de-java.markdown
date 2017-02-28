@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-11-28 10:49:41+00:00
-layout: post
 slug: dwm-y-programas-graficos-de-java
 title: DWM y programas gráficos de Java
 wordpress_id: 348

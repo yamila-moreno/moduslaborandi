@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-05-25 16:39:25+00:00
-layout: post
 slug: deploy-a-ghost-blog
 title: Deploy a ghost blog
 wordpress_id: 848

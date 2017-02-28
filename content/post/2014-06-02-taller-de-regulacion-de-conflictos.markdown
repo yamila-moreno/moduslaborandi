@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-06-02 13:04:37+00:00
-layout: post
 slug: taller-de-regulacion-de-conflictos
 title: Taller de regulación de conflictos
 wordpress_id: 402

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-10-27 22:58:47+00:00
-layout: post
 slug: ttparo-es-3-trimestre-2014
 title: TTPARO.es 3er trimestre 2014
 wordpress_id: 576

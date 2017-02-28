@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-01-05 20:07:42+00:00
-layout: post
 slug: archlinux-android-mtp
 title: ArchLinux, Android, MTP
 wordpress_id: 756

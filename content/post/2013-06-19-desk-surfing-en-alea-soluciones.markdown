@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-06-19 21:38:35+00:00
-layout: post
 slug: desk-surfing-en-alea-soluciones
 title: Desk-surfing en Alea Soluciones
 wordpress_id: 321

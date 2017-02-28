@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-12-02 13:19:13+00:00
-layout: post
 slug: pycones-2013
 title: PyConES 2013
 wordpress_id: 357

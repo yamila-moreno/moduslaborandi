@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-12-23 08:31:18+00:00
-layout: post
 slug: vii-piweek-jannie-5
 title: 'VII PiWeek: Jannie 5'
 wordpress_id: 642

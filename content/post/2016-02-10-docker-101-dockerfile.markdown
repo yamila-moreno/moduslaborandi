@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2016-02-10 21:06:20+00:00
-layout: post
 slug: docker-101-dockerfile
 title: Docker 101 - Dockerfile
 wordpress_id: 1053

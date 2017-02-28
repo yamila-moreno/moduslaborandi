@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2016-02-11 21:43:17+00:00
-layout: post
 slug: docker-101-docker-compose
 title: Docker 101 - docker-compose
 wordpress_id: 1066

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-12-22 09:19:41+00:00
-layout: post
 slug: archlinux-installation
 title: ArchLinux installation
 wordpress_id: 652

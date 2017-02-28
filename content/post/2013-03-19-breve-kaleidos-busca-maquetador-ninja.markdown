@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-03-19 23:01:51+00:00
-layout: post
 slug: breve-kaleidos-busca-maquetador-ninja
 title: 'Breve: Kaleidos busca maquetador ninja'
 wordpress_id: 307

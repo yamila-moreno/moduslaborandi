@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-12-11 11:46:57+00:00
-layout: post
 slug: pycones-2015-and-a-keynote-the-power-of-a-story
 title: 'PyConES 2015 and a keynote: the power of a story'
 wordpress_id: 999

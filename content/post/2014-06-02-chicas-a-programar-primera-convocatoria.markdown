@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-06-02 10:17:38+00:00
-layout: post
 slug: chicas-a-programar-primera-convocatoria
 title: Chicas, ¡a programar!
 wordpress_id: 405

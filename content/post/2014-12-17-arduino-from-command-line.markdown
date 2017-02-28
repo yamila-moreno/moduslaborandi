@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-12-17 15:56:26+00:00
-layout: post
 slug: arduino-from-command-line
 title: Arduino from command line
 wordpress_id: 649

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-07-29 17:44:25+00:00
-layout: post
 slug: introduccion-a-fabric-ii
 title: Introducción a Fabric (II)
 wordpress_id: 498

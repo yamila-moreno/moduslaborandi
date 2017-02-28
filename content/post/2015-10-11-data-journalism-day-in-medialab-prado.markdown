@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-10-11 10:25:16+00:00
-layout: post
 slug: data-journalism-day-in-medialab-prado
 title: Data Journalism day in Medialab Prado
 wordpress_id: 953

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-02-24 15:24:58+00:00
-layout: post
 slug: kosdem-2013
 title: Kosdem 2013
 wordpress_id: 290

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-01-14 00:03:43+00:00
-layout: post
 slug: slippery-slope
 title: Slippery Slope
 wordpress_id: 768

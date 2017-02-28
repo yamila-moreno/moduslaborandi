@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-07-18 21:39:49+00:00
-layout: post
 slug: feliz-segundo-aniversario-kaleidos
 title: Feliz segundo aniversario, Kaleidos
 wordpress_id: 326

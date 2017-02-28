@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-12-16 12:20:33+00:00
-layout: post
 slug: ix-piweek-monitoring-with-elk-ii
 title: 'IX PIWEEK: monitoring with ELK (II)'
 wordpress_id: 1028

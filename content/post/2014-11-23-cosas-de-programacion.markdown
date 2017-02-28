@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-11-23 20:32:37+00:00
-layout: post
 slug: cosas-de-programacion
 title: Cosas de programación...
 wordpress_id: 627

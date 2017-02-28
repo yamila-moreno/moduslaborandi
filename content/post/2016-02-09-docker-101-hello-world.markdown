@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2016-02-09 22:31:28+00:00
-layout: post
 slug: docker-101-hello-world
 title: Docker 101 - Hello, world
 wordpress_id: 1047

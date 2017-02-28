@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-11-27 23:28:16+00:00
-layout: post
 slug: archduino
 title: Archduino
 wordpress_id: 333

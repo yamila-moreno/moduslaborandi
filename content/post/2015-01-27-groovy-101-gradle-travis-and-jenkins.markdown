@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-01-27 14:47:02+00:00
-layout: post
 slug: groovy-101-gradle-travis-and-jenkins
 title: 'Groovy 101 (III): Gradle, Travis and Jenkins'
 wordpress_id: 774

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-04-27 17:55:17+00:00
-layout: post
 slug: london-clojure-bridge
 title: London Clojure Bridge
 wordpress_id: 834

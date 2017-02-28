@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-05-30 09:35:46+00:00
-layout: post
 slug: python-madrid-mayo
 title: Python Madrid Mayo
 wordpress_id: 392

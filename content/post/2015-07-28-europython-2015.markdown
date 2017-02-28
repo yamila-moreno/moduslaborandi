@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-07-28 20:37:26+00:00
-layout: post
 slug: europython-2015
 title: EuroPython 2015
 wordpress_id: 891

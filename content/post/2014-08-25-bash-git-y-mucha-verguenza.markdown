@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-08-25 17:18:32+00:00
-layout: post
 slug: bash-git-y-mucha-verguenza
 title: Bash, git y mucha vergüenza
 wordpress_id: 550

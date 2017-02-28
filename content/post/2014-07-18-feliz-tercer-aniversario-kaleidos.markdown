@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-07-18 08:15:46+00:00
-layout: post
 slug: feliz-tercer-aniversario-kaleidos
 title: Feliz tercer aniversario, Kaleidos
 wordpress_id: 450

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-09-02 20:13:54+00:00
-layout: post
 slug: why-you-should-give-a-talk
 title: Why you should give a talk
 wordpress_id: 949

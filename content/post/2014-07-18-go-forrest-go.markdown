@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-07-18 13:40:17+00:00
-layout: post
 slug: go-forrest-go
 title: Go, Forrest, go
 wordpress_id: 465

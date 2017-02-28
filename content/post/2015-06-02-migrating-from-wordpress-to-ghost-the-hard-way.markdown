@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-06-02 14:27:49+00:00
-layout: post
 slug: migrating-from-wordpress-to-ghost-the-hard-way
 title: Migrating from Wordpress to Ghost (the hard way)
 wordpress_id: 863

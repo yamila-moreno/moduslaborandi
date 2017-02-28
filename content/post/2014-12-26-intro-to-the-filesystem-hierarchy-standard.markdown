@@ -2,7 +2,6 @@
 author: lekum
 comments: true
 date: 2014-12-26 11:05:04+00:00
-layout: post
 slug: intro-to-the-filesystem-hierarchy-standard
 title: Intro to the Filesystem Hierarchy Standard
 wordpress_id: 708

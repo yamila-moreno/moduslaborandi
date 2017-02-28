@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2016-04-23 23:32:05+00:00
-layout: post
 slug: wordpress-and-nginx-bonus-vagrant
 title: 'Wordpress and Nginx (bonus: Vagrant)'
 wordpress_id: 1091

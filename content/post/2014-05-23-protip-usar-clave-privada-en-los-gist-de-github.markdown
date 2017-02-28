@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-05-23 13:16:53+00:00
-layout: post
 slug: protip-usar-clave-privada-en-los-gist-de-github
 title: 'ProTip: usar clave privada en los gist de github'
 wordpress_id: 387

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-07-18 18:40:58+00:00
-layout: post
 slug: viii-piweek
 title: VIII PIWEEK
 wordpress_id: 879

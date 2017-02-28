@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-01-10 20:27:31+00:00
-layout: post
 slug: comenzamos
 title: Comenzamos
 wordpress_id: 10

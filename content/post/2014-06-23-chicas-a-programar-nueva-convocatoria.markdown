@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-06-23 21:10:47+00:00
-layout: post
 slug: chicas-a-programar-nueva-convocatoria
 title: Chicas, ¡a programar! (nueva convocatoria)
 wordpress_id: 444

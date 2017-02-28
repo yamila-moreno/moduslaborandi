@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-02-10 16:35:55+00:00
-layout: post
 slug: gestionar-el-talento-vs-gestionar-la-mediocridad
 title: Gestionar el talento vs gestionar la mediocridad
 wordpress_id: 269

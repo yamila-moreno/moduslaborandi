@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-06-18 22:31:56+00:00
-layout: post
 slug: gtd-get-things-damned
 title: 'GTD: Get Things Damned'
 wordpress_id: 315

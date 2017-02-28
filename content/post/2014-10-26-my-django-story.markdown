@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-10-26 20:16:45+00:00
-layout: post
 slug: my-django-story
 title: My Django Story
 wordpress_id: 571

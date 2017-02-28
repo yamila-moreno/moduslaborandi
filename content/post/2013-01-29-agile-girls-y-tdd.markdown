@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-01-29 22:11:03+00:00
-layout: post
 slug: agile-girls-y-tdd
 title: Agile girls y TDD
 wordpress_id: 215

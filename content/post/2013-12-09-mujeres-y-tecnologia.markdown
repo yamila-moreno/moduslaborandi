@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-12-09 11:02:21+00:00
-layout: post
 slug: mujeres-y-tecnologia
 title: Mujeres y tecnología
 wordpress_id: 367

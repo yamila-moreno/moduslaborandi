@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-08-02 20:51:38+00:00
-layout: post
 slug: publish-your-gpx-with-cartodb
 title: Publish your GPX with CartoDB
 wordpress_id: 922

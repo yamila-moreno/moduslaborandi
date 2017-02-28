@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-11-04 19:56:47+00:00
-layout: post
 slug: taller-del-waterfall-al-tdd
 title: 'Taller: del waterfall al TDD'
 wordpress_id: 580

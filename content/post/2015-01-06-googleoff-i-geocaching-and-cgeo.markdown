@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-01-06 22:28:57+00:00
-layout: post
 slug: googleoff-i-geocaching-and-cgeo
 title: 'GoogleOff (I): Geocaching and cgeo'
 wordpress_id: 760

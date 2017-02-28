@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-08-13 18:05:32+00:00
-layout: post
 slug: publish-your-gpx-with-mapbox
 title: Publish your GPX with Mapbox
 wordpress_id: 925

@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-08-02 19:12:40+00:00
-layout: post
 slug: hosting-for-wordpress
 title: Hosting for Wordpress
 wordpress_id: 910

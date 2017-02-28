@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-11-16 07:54:50+00:00
-layout: post
 slug: piweek-as-a-service
 title: Piweek as a service
 wordpress_id: 624

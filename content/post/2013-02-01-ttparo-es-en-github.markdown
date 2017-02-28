@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-02-01 23:34:02+00:00
-layout: post
 slug: ttparo-es-en-github
 title: TTparo.es en Github
 wordpress_id: 233

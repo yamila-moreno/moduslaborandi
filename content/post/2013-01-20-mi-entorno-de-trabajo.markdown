@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2013-01-20 18:46:37+00:00
-layout: post
 slug: mi-entorno-de-trabajo
 title: Mi entorno de trabajo
 wordpress_id: 85

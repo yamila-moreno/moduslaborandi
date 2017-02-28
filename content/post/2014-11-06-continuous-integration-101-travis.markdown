@@ -2,7 +2,6 @@
 author: lekum
 comments: true
 date: 2014-11-06 08:18:28+00:00
-layout: post
 slug: continuous-integration-101-travis
 title: 'Continuous Integration 101: Travis'
 wordpress_id: 590

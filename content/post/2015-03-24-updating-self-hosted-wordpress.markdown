@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2015-03-24 17:31:15+00:00
-layout: post
 published: false
 slug: updating-self-hosted-wordpress
 title: Updating self hosted Wordpress

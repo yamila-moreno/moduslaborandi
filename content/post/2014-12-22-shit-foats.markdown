@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-12-22 22:31:44+00:00
-layout: post
 published: false
 slug: shit-foats
 title: Shit foats

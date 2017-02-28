@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-11-27 22:26:09+00:00
-layout: post
 slug: integrando-karma-en-travis
 title: Integrando Karma en Travis
 wordpress_id: 633

@@ -2,7 +2,6 @@
 author: lekum
 comments: true
 date: 2014-11-14 08:47:22+00:00
-layout: post
 slug: continuous-integration-101-jenkins
 title: 'Continuous Integration 101: Jenkins'
 wordpress_id: 606

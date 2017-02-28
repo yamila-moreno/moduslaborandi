@@ -2,7 +2,6 @@
 author: yamila
 comments: true
 date: 2014-04-28 19:26:31+00:00
-layout: post
 slug: migrar-de-domain-wordpress-com-a-domain-es
 title: Migrar de domain.wordpress.com a domain.es
 wordpress_id: 378
