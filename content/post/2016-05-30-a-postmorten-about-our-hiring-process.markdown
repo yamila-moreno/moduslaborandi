@@ -17,7 +17,6 @@ thumbnailImage: /images/2016/05/nuevos-compis.jpe
 ---
 
 Three months ago, [Kaleidos](http://kaleidos.net) opened 2 new positions. We were looking for frontends. In Kaleidos, the onboarding of a new member is a very important issue, so we take our time in the process.
-
 <!--more-->
 
 This process was specially long and exhausting and I'd like to share some thoughts about it from a gender perspective.
