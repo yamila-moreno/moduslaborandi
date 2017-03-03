@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "Modus Laborandi"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "http-moduslaborandi-net"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-92977771-1"
 paginate = 10
 canonifyurls = true
 
