@@ -174,6 +174,20 @@ canonifyurls = true
   # [params.sidebar.profile]
   #   url = "/#about"
 
+  # Config added specifically in the fork
+  showDate = true
+  showTags = true
+  showPagination = true
+  comments = true
+  showSocial = true
+  [params.social]
+    share_on_twitter = true
+    share_on_facebook = false
+    share_on_google_plus = false
+  # End config added specifically in the fork
+
   # Customize copyright value "© 2016 <CUSTOMIZATION>. All Rights Reserved"
   [params.footer]
     copyright = "<a href=\"https://github.com/yamila-moreno\" target=\"_new\">yamila-moreno</a>"
+
+
