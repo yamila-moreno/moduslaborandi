@@ -18,16 +18,11 @@ thumbnailImagePosition: left
 thumbnailImage: http://2015.es.pycon.org/static/img/logo-retina.png
 ---
 
-Last november I attended my third Pythonist event this year ([first](http://2015.djangocon.eu/), [second](http://moduslaborandi.net/europython-2015/)); this time was [PyConES](http://2015.es.pycon.org) in Valencia.
-
-TL;DR: the event was a blast! Good talks, amazing atmosphere, and tons of Python.
-
+Last november I attended my third Pythonist event this year ([first](http://2015.djangocon.eu/), [second](http://moduslaborandi.net/europython-2015/)); this time was [PyConES](http://2015.es.pycon.org) in Valencia. **TL;DR**: the event was a blast! Good talks, amazing atmosphere, and tons of Python.
 <!--more-->
 
 
 ![](http://2015.es.pycon.org/static/img/logo-retina.png)
-
-
 
 
 To begin, I must recognize the huge work of the **organization** of the event: they were nice, they were thoughtful, always in a good mood, nice with everyone, trying to be helpful. Did I say nice? Well, [Juanlu](http://twitter.com/astrojuanlu), [Mai](http://twitter.com/maidotgimenez), [Marcos](http://twitter.com//cyberslas) and [Javi](http://twitter.com/javipalanca) were the heart of the event; to them and all the other not-so-visible volunteers, thanks :D
