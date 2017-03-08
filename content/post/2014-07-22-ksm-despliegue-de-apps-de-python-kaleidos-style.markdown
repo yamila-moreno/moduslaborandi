@@ -1,6 +1,6 @@
 ---
 author: yamila
-comments: false
+comments: true
 date: 2014-07-22 14:40:12+00:00
 slug: ksm-despliegue-de-apps-de-python-kaleidos-style
 title: 'KSM: despliegue de apps de Python (Kaleidos style)'
