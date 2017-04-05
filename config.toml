@@ -48,7 +48,7 @@ canonifyurls = true
 
 # Menu Configuration
 [[menu.main]]
-  weight = 0
+  weight = 5
   identifier = "home"
   name = "Home"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
@@ -60,13 +60,13 @@ canonifyurls = true
 #  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
 #  url = "/categories"
 [[menu.main]]
-  weight = 2
+  weight = 0
   identifier = "tags"
   name = "Tags"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
   url = "/tags"
 [[menu.main]]
-  weight = 3
+  weight = 0
   identifier = "archives"
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
