@@ -7,7 +7,7 @@ title: Sourced Tech Talks
 categories:
 - General
 tags:
-- infrastructre
+- infrastructure
 - event
 - talent
 ---
