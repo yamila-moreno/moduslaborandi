@@ -1,0 +1,27 @@
+---
+author: yamila
+comments: true
+date: 2017-06-11 22:02:22+00:00
+slug: pyday-galicia-2017
+title: PyDay Galicia 2017
+categories:
+- General
+tags:
+- python
+- event
+- talent
+---
+
+Last weekend I went to Vigo to attend the <a href="https://pyday2017.python-vigo.es/es/" target="_new">Second PyDay Galicia</a>, a friendly and well organized Python event. It was located in the Contemporary Art Museum, where we had good rooms to enjoy the talks.
+
+After the first edition, they went bigger, enlarging 3 times the number of attendees. There were two tracks: a *basic* and a *professional* one; both were packed all the day, which was a very good sign. I enjoyed the talks, and I'd like to highlight a couple of them:
+
+- *OpenCV con Python*, in the professional track, where <a href="https://github.com/ricardo-samaniego" target="_new">Ricardo Samaniego</a> showed us different demos about the possibilities of OpenCV. It was very interesting and ilustrative about the power of OpenCV.
+- *DÃ³nde estÃ¡ mi Ã±.*, in the introductory track, where <a href="http://twitter.com/migonzalvar" targte="_new">Miguel González</a> told us about the lights and shadows of the different encodings, starting in the famous Morse code, until the birthing of Unicode. It was an amazing talk, and I really wish <a href="https://2017.es.pycon.org/en/proposals/submit/" target="_new">we can see it more times</a>.
+
+Besides, I had the opportunity of sharing the talk <a href="https://yamila-moreno.github.io/ciceron-y-las-comunidades-tecnologicas/#/" target="_new">Cicerón y las comunidades tecnológicas</a>, where I go through the "virtues" that the philosopher left us. I tried to think about what are the virtues that a XXI century tech community should have. As far as I can say, the talk had a very good reception.
+
+<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Gracias a todos! Un <a href="https://twitter.com/hashtag/PyDayGalicia?src=hash">#PyDayGalicia</a> enorme! <a href="https://twitter.com/hashtag/PyDay?src=hash">#PyDay</a> <a href="https://twitter.com/hashtag/Python?src=hash">#Python</a> <a href="https://t.co/lNevhXZ8jG">pic.twitter.com/lNevhXZ8jG</a></p>&mdash; Python Vigo (@python_vigo) <a href="https://twitter.com/python_vigo/status/873834929221767168">11 de junio de 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Finally, I'd like to thank the organizers for creating this event, and I hope we'll see more PyDays in Galicia.
