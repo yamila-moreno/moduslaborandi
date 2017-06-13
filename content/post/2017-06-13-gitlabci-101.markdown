@@ -1,0 +1,132 @@
+---
+author: yamila
+comments: true
+date: 2017-06-13 10:02:22+00:00
+slug: gitlabci-101
+title: Gitlab CI 101
+categories:
+- General
+tags:
+- docker
+- gitlab-ci
+- gitlab
+- continuous-integration
+---
+
+This post is a tutorial for beginners, to start with continuous integration of Gitlab, GitlabCI, in a project with Docker. The main goal is understand the different pieces that take park in the process, and be able to automate some tasks during the development of your application.
+<!--more-->
+
+<h2>Assumptions</h2>
+
+To follow properly this tutorial, you'll need a small project (really smal!) and you need to know git. It will be also required that you have a free <a href="http://gitlab.com" target="_new">Gitlab.com account</a>. This tutorial represents the natural continuation of the tutorial I published about docker, and it assumes that the <em>cointainer</em> part is solved. If you don't feel skilled in this docker stuff, I recommend you to do first the tuturial about <a href="http://moduslaborandi.net/2016/02/docker-101-hello-world/" target="_new">introduction to docker</a> and <a href="http://moduslaborandi.net/2016/02/docker-101-dockerfile/" target="_new">introduction to Dockerfile</a>.
+
+<h2>Continuous integration</h2>
+
+According to the <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continua" target="_new">Wikipedia</a>:
+
+<blockquote>
+Continuous integration is an informatic model, initially proposed by Martin Fowler, consisting on making as many automatic integrations of a project as possible, so errors can be detected as soon as possible. We understand integration as compilation and test execution of an entire project.
+</blockquote>
+
+So GitlabCI is a tool that makes it easy to test automatically a project and show errors as soon as they appear. Among the <em>continuous integration tools</em> family, others that are famous are <a href="https://travis-ci.org/" target="_new">Travis</a>, that belongs to Github, and <a href="https://jenkins.io/" target="_new">Jenkins</a>. Of these three, GitlabCI and Jenkins are open source.
+
+
+<h2>We have a project</h2>
+
+We start with a project, better if it's a small one. The project I used it's a <a href="https://gitlab.com/yamila/calculus" target="_new">half calculator</a>, written in Python.
+Feel free to fork it if you find it useful for this tutorial. If you're using it, I suggest that you go to the tag 'v0.2', which the first point to follow this tutorial:
+
+```
+$ git reset --hard v0.2
+```
+
+At this point, we have a code base, some tests and a <code>Dockerfile</code>.
+
+<h2>Let's CI</h2>
+
+We're using <em>gitlab.com</em> which is properly configured and isolates ourselves from the configuration, so we can start working. We want the following workflow:
+
+- we do some stuff and push some code to master (tipically we'd push to master after a peer review, for instance)
+- automatically, gitlab-ci takes this master branch, generates a doker image following the instructions in the Dockerfile
+- then it will run the tests of my new master branch inside a docker
+- it tests pass, then it will push the docker image to the gitlab registry
+- from now, this new docker image should be available in the registry
+
+It's a very simple integration, and we don't even deploy to a stage evironment, which could be desired. In this tutorial, we'll just focus on the different parts. Now, we create a file called <code>.gitlab-ci.yml</code> (mind the starting dot) in the root of the project, so the tree of my super calculator would be like this:
+
+```
+orbe :: formacion/gitlab-ci/calculus ‹master› » tree
+.
+├── .gitlab-ci.yml
+├── Dockerfile
+├── requirements.txt
+└── src
+    ├── calculus.py
+    └── test_calculus.py
+```
+
+Now, inside the <code>.gitlab-ci.yml</code> file, we write the following:
+```
+# We're using the method "docker in docker" to build and run containers during the jobs [1]
+image: docker
+services:
+- docker:dind
+
+# We set a variable name, that we'll use afterwards
+variables:
+  IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+
+# The code here is run before all jobs.
+# In this case, we need to log in the registry to be able to push the image
+before_script:
+  - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+
+# Our first job, wich buils the image, runs the test and pushes the image
+# If one step fails, the systems don't continue with the others
+test-library:
+  stage: test
+  script:
+  - docker build -t $IMAGE_TAG .
+  - docker run $IMAGE_TAG pytest
+  - docker push $IMAGE_TAG
+# This section allow to configure when do we want the CI
+# For this tutorial, we are only automating the tests for master branch
+  only:
+    - master
+```
+
+If you'd like to know more about the methods to build and run containers [1], check <a href="ihttps://docs.gitlab.com/ee/ci/docker/using_docker_build.html">the official documentation</a>. Besides, you should take a look to the <a href="https://docs.gitlab.com/ee/ci/yaml/" target="_new">.gitlab-ci.yml reference</a> to learn about the sections and the different options. You won't need all the options in each job, but it's useful to know what can be done.
+
+Once we have this new file, we add it to the repository, commit and push to gitlab.com (in master branch!). Now, go to the administration panel of the repository, to the <em>Pipelines</em> section. There you'll see something like this:
+
+<figure>
+<img src="https://c1.staticflickr.com/5/4256/34438005714_1b7e077f35_o.png" alt="Screenshot of the gitlab pipeline">
+<figcaption>Tests went green and ok!</figcaption>
+</figure>
+
+One last thing, now you can go to the <em>Registry</em> section and check that a new image is available in the registry. If you'd like to test it and close the circle, you should:
+
+```
+# pull the image
+orbe :: ~ » docker pull registry.gitlab.com/yamila/calculus:7a14a50b3c18b6b923f7baf1495a928a88689dbc
+
+# run the tests
+orbe :: ~ » docker run registry.gitlab.com/yamila/calculus:7a14a50b3c18b6b923f7baf1495a928a88689dbc pytest
+============================= test session starts ==============================
+platform linux -- Python 3.6.1, pytest-3.1.0, py-1.4.34, pluggy-0.4.0
+rootdir: /calculus, inifile:
+collected 2 items
+test_calculus.py ..
+=========================== 2 passed in 0.01 seconds ===========================
+```
+
+If you have a private project, you'll see an "access forbiden" error when you try to pull the image; the reason is that you need docker logs in the registry:
+```
+$ docker login registry.gitlab.com
+Username: me@email.com
+Password:
+```
+
+Try again and you'll be able to pull the image.
+
+And <em>voilà</em>! Now you have the basis to start doing continuous integration in your projects. Don't forget to take a look at the documentation to go deep in the concepts. Congratulations! If you liked the tutorial or if you have any questions or suggestions, drop me some comments!
