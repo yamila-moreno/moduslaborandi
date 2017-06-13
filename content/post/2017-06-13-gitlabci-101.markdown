@@ -11,7 +11,7 @@ tags:
 - continuous-integration
 ---
 
-This post is a tutorial for beginners, to start with continuous integration of Gitlab, GitlabCI, in a project with Docker. The main goal is understand the different pieces that take park in the process, and be able to automate some tasks during the development of your application.
+This post is a tutorial for beginners, to start with continuous integration of Gitlab, GitlabCI, in a project with Docker. The main goal is understand the different pieces that take part in the process, and be able to automate some tasks during the development of your application.
 <!--more-->
 
 <h2>Assumptions</h2>
@@ -26,7 +26,7 @@ According to the <a href="https://es.wikipedia.org/wiki/Integraci%C3%B3n_continu
 Continuous integration is an informatic model, initially proposed by Martin Fowler, consisting on making as many automatic integrations of a project as possible, so errors can be detected as soon as possible. We understand integration as compilation and test execution of an entire project.
 </blockquote>
 
-So GitlabCI is a tool that makes it easy to test automatically a project and show errors as soon as they appear. Among the <em>continuous integration tools</em> family, others that are famous are <a href="https://travis-ci.org/" target="_new">Travis</a>, that belongs to Github, and <a href="https://jenkins.io/" target="_new">Jenkins</a>. Of these three, GitlabCI and Jenkins are open source.
+So GitlabCI is a tool that makes it easy to test automatically a project and show errors as soon as they appear. Among the <em>continuous integration tools</em> family, others that are famous are <a href="https://travis-ci.org/" target="_new">Travis</a>, <del>that belongs to Github</del> which is integrated with Github, and <a href="https://jenkins.io/" target="_new">Jenkins</a>. Of these three, GitlabCI and Jenkins are open source.
 
 
 <h2>We have a project</h2>
