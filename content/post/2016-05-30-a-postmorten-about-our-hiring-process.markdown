@@ -5,8 +5,6 @@ date: 2016-05-30 17:02:22+00:00
 slug: a-postmorten-about-our-hiring-process
 title: A postmorten about our hiring process
 wordpress_id: 1097
-categories:
-- General
 tags:
 - diversity
 - kaleidos.net

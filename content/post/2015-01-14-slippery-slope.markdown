@@ -5,8 +5,6 @@ date: 2015-01-14 00:03:43+00:00
 slug: slippery-slope
 title: Slippery Slope
 wordpress_id: 768
-categories:
-- General
 ---
 
 I came from winter holidays and wanted to share some photos in my [travel blog](http://dendarii.es). That triggered a chain reaction with a series of unfortunate events...

@@ -6,8 +6,6 @@ published: false
 slug: updating-self-hosted-wordpress
 title: Updating self hosted Wordpress
 wordpress_id: 823
-categories:
-- General
 ---
 
 Simple tip to easily update the wordpress you have in your own server.

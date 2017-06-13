@@ -5,8 +5,6 @@ date: 2013-01-20 18:46:37+00:00
 slug: mi-entorno-de-trabajo
 title: Mi entorno de trabajo
 wordpress_id: 85
-categories:
-- General
 tags:
 - archlinux
 - dwm

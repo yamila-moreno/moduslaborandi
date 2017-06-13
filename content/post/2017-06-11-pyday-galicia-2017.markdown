@@ -4,8 +4,6 @@ comments: true
 date: 2017-06-11 22:02:22+00:00
 slug: pyday-galicia-2017
 title: PyDay Galicia 2017
-categories:
-- General
 tags:
 - python
 - event

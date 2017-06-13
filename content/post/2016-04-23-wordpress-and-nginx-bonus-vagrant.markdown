@@ -5,9 +5,6 @@ date: 2016-04-23 23:32:05+00:00
 slug: wordpress-and-nginx-bonus-vagrant
 title: 'Wordpress and Nginx (bonus: Vagrant)'
 wordpress_id: 1091
-categories:
-- Open source
-- Tutorials
 tags:
 - my modus
 - nginx

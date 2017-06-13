@@ -5,8 +5,6 @@ date: 2015-08-02 19:12:40+00:00
 slug: hosting-for-wordpress
 title: Hosting for Wordpress
 wordpress_id: 910
-categories:
-- General
 tags:
 - wordpress
 ---

@@ -5,8 +5,6 @@ date: 2013-01-10 20:27:31+00:00
 slug: comenzamos
 title: Comenzamos
 wordpress_id: 10
-categories:
-- General
 tags:
 - my modus
 archives: archives

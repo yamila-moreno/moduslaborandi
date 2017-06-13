@@ -5,9 +5,6 @@ date: 2013-01-27 23:54:00+00:00
 slug: introduccion-a-fabric
 title: Introducción a fabric
 wordpress_id: 185
-categories:
-- General
-- Tutorials
 tags:
 - fabric
 - gettext

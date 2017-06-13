@@ -5,9 +5,6 @@ date: 2015-04-27 17:55:17+00:00
 slug: london-clojure-bridge
 title: London Clojure Bridge
 wordpress_id: 834
-categories:
-- General
-- Open source
 tags:
 - clojure
 - clojure bridge

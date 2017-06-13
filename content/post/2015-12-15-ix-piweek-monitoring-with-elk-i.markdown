@@ -5,9 +5,6 @@ date: 2015-12-15 16:00:36+00:00
 slug: ix-piweek-monitoring-with-elk-i
 title: 'IX PIWEEK: monitoring with ELK (I)'
 wordpress_id: 1013
-categories:
-- Open source
-- Tutorials
 tags:
 - elk
 - kaleidos.net

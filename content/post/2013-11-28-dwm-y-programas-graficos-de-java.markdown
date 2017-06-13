@@ -5,8 +5,6 @@ date: 2013-11-28 10:49:41+00:00
 slug: dwm-y-programas-graficos-de-java
 title: DWM y programas gráficos de Java
 wordpress_id: 348
-categories:
-- General
 post_format:
 - Aside
 tags:

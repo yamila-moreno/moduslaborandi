@@ -5,9 +5,6 @@ date: 2013-02-10 16:35:55+00:00
 slug: gestionar-el-talento-vs-gestionar-la-mediocridad
 title: Gestionar el talento vs gestionar la mediocridad
 wordpress_id: 269
-categories:
-- General
-- Metodology
 tags:
 - kaleidos.net
 - my modus

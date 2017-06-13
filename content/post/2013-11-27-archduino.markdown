@@ -5,9 +5,6 @@ date: 2013-11-27 23:28:16+00:00
 slug: archduino
 title: Archduino
 wordpress_id: 333
-categories:
-- Open source
-- Tutorials
 tags:
 - arduino
 ---

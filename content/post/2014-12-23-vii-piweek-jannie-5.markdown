@@ -5,8 +5,6 @@ date: 2014-12-23 08:31:18+00:00
 slug: vii-piweek-jannie-5
 title: 'VII PiWeek: Jannie 5'
 wordpress_id: 642
-categories:
-- General
 ---
 
 _How many times have you wanted or desperately needed an assassin drone?_ With this question, [Alex](http://twitter.com/lekum) and I came to the _maketplace_ of the [VII PIWeek](http://piweek.com).

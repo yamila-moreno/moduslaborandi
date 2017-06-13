@@ -5,8 +5,6 @@ date: 2014-09-22 17:42:33+00:00
 slug: jornada-de-coincidencia
 title: Jornada de coincidencia
 wordpress_id: 563
-categories:
-- General
 tags:
 - kaleidos.net
 - motivation

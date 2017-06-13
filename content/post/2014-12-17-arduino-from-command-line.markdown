@@ -5,9 +5,6 @@ date: 2014-12-17 15:56:26+00:00
 slug: arduino-from-command-line
 title: Arduino from command line
 wordpress_id: 649
-categories:
-- Open source
-- Tutorials
 tags:
 - arduino
 - bash

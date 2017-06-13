@@ -5,8 +5,6 @@ date: 2015-07-28 20:37:26+00:00
 slug: europython-2015
 title: EuroPython 2015
 wordpress_id: 891
-categories:
-- Open source
 tags:
 - djangogirls
 - motivation

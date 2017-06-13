@@ -5,9 +5,6 @@ date: 2014-07-18 08:15:46+00:00
 slug: feliz-tercer-aniversario-kaleidos
 title: Feliz tercer aniversario, Kaleidos
 wordpress_id: 450
-categories:
-- General
-- Open source
 tags:
 - kaleidos.net
 - motivation

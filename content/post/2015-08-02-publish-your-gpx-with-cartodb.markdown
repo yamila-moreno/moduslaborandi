@@ -5,9 +5,6 @@ date: 2015-08-02 20:51:38+00:00
 slug: publish-your-gpx-with-cartodb
 title: Publish your GPX with CartoDB
 wordpress_id: 922
-categories:
-- Open source
-- Tutorials
 tags:
 - cartodb
 - my modus

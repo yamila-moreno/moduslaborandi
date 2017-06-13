@@ -5,8 +5,6 @@ date: 2014-12-29 15:06:44+00:00
 slug: groovy-101-groovycalc-with-tests-and-travis-ci-integration
 title: 'Groovy 101 (I): groovyCalc with tests and Travis-CI integration'
 wordpress_id: 722
-categories:
-- Tutorials
 tags:
 - groovy
 - travis

@@ -4,8 +4,6 @@ comments: true
 date: 2017-03-12 17:02:22+00:00
 slug: women-tech-makers-2017
 title: Women Tech Makers 2017
-categories:
-- General
 tags:
 - diversity
 - women

@@ -5,8 +5,6 @@ date: 2013-12-02 13:19:13+00:00
 slug: pycones-2013
 title: PyConES 2013
 wordpress_id: 357
-categories:
-- General
 ---
 
 Este año he participado en la organización de [PyConES](http://2013.es.pycon.org), el primer evento en torno a Python que organiza la recién creada asociación Python España. Durante un fin de semana, nos reunimos unas 330 personas para asistir a las más de 40 charlas de variada temática.

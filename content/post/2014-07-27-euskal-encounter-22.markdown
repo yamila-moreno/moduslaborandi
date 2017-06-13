@@ -5,9 +5,6 @@ date: 2014-07-27 19:55:38+00:00
 slug: euskal-encounter-22
 title: Euskal Encounter 22
 wordpress_id: 520
-categories:
-- General
-- Open source
 tags:
 - kaleidos.net
 - motivation

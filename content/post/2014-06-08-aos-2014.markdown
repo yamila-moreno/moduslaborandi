@@ -5,8 +5,6 @@ date: 2014-06-08 22:14:44+00:00
 slug: aos-2014
 title: AOS 2014
 wordpress_id: 415
-categories:
-- Metodology
 tags:
 - agile
 - motivation

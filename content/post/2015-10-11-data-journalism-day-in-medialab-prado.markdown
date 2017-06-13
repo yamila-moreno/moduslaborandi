@@ -5,9 +5,6 @@ date: 2015-10-11 10:25:16+00:00
 slug: data-journalism-day-in-medialab-prado
 title: Data Journalism day in Medialab Prado
 wordpress_id: 953
-categories:
-- Open source
-- Tutorials
 tags:
 - cartodb
 - cartography

@@ -5,8 +5,6 @@ date: 2015-12-14 17:16:37+00:00
 slug: pycones-2015-amazing-python-event
 title: 'PyConES 2015: amazing Python event!'
 wordpress_id: 1005
-categories:
-- Open source
 tags:
 - diversity
 - djangogirls

@@ -5,8 +5,6 @@ date: 2015-03-23 18:37:13+00:00
 slug: kosdem-2015
 title: KOSDEM 2015
 wordpress_id: 812
-categories:
-- General
 tags:
 - kaleidos.net
 - kosdem

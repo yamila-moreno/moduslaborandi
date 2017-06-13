@@ -5,8 +5,6 @@ date: 2015-05-10 17:40:55+00:00
 slug: personal-blog-and-slides-with-github-pages
 title: Personal blog and slides with Github Pages
 wordpress_id: 825
-categories:
-- General
 ---
 
 You may have seen personal pages, blogs or even documentation in [github.io](https://pages.github.com/) domain. Here you have a simple howto about this service of [GitHub](http://github.com).

@@ -5,8 +5,6 @@ date: 2015-09-02 20:13:54+00:00
 slug: why-you-should-give-a-talk
 title: Why you should give a talk
 wordpress_id: 949
-categories:
-- Open source
 tags:
 - motivation
 - my modus

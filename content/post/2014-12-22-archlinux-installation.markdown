@@ -5,9 +5,6 @@ date: 2014-12-22 09:19:41+00:00
 slug: archlinux-installation
 title: ArchLinux installation
 wordpress_id: 652
-categories:
-- Open source
-- Tutorials
 tags:
 - archlinux
 - kaleidos.net

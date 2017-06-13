@@ -5,9 +5,6 @@ date: 2013-07-18 21:39:49+00:00
 slug: feliz-segundo-aniversario-kaleidos
 title: Feliz segundo aniversario, Kaleidos
 wordpress_id: 326
-categories:
-- General
-- Open source
 tags:
 - kaleidos.net
 - motivation

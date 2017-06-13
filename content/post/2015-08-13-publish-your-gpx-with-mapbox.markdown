@@ -5,9 +5,6 @@ date: 2015-08-13 18:05:32+00:00
 slug: publish-your-gpx-with-mapbox
 title: Publish your GPX with Mapbox
 wordpress_id: 925
-categories:
-- Open source
-- Tutorials
 tags:
 - mapbox
 - my modus

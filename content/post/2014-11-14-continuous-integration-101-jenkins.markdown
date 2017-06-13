@@ -5,8 +5,6 @@ date: 2014-11-14 08:47:22+00:00
 slug: continuous-integration-101-jenkins
 title: 'Continuous Integration 101: Jenkins'
 wordpress_id: 606
-categories:
-- Tutorials
 tags:
 - continuous integration
 - django

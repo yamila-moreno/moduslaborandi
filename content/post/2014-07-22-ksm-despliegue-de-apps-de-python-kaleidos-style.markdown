@@ -5,9 +5,6 @@ date: 2014-07-22 14:40:12+00:00
 slug: ksm-despliegue-de-apps-de-python-kaleidos-style
 title: 'KSM: despliegue de apps de Python (Kaleidos style)'
 wordpress_id: 473
-categories:
-- Open source
-- Tutorials
 tags:
 - kaleidos.net
 - my modus

@@ -4,8 +4,6 @@ comments: true
 date: 2017-06-13 10:02:22+00:00
 slug: gitlabci-101
 title: Gitlab CI 101
-categories:
-- General
 tags:
 - docker
 - gitlab-ci

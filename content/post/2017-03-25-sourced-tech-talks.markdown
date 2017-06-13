@@ -4,8 +4,6 @@ comments: true
 date: 2017-03-25 10:02:22+00:00
 slug: sourced-tech-talks
 title: Sourced Tech Talks
-categories:
-- General
 tags:
 - infrastructure
 - event

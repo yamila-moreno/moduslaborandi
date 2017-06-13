@@ -5,8 +5,6 @@ date: 2015-01-05 20:07:42+00:00
 slug: archlinux-android-mtp
 title: ArchLinux, Android, MTP
 wordpress_id: 756
-categories:
-- Tutorials
 post_format:
 - Aside
 tags:

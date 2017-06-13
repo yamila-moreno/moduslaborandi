@@ -5,8 +5,6 @@ date: 2014-11-04 19:56:47+00:00
 slug: taller-del-waterfall-al-tdd
 title: 'Taller: del waterfall al TDD'
 wordpress_id: 580
-categories:
-- Open source
 tags:
 - agile
 - motivation

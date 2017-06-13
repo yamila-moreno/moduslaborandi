@@ -5,8 +5,6 @@ date: 2014-06-23 21:10:47+00:00
 slug: chicas-a-programar-nueva-convocatoria
 title: Chicas, ¡a programar! (nueva convocatoria)
 wordpress_id: 444
-categories:
-- Open source
 tags:
 - agilegirls
 - motivation

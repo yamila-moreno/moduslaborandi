@@ -5,8 +5,6 @@ date: 2014-06-02 13:04:37+00:00
 slug: taller-de-regulacion-de-conflictos
 title: Taller de regulación de conflictos
 wordpress_id: 402
-categories:
-- General
 ---
 
 El jueves pasado asistí a un "Taller de regulación de conflictos" impartido por Maica y Santi de [Reeelab](http://reeelab.com/). Cuando salió el anuncio, me interesó muchísimo, pero la agenda me impedía ir. Un golpe de suerte liberó mis compromisos del día y me lancé al taller. Antes de ir empecé a pensar (primer fallo ;-)): taller de regulación de conflictos... ¿y de qué irá? Puede ir de muchos temas... ¿y cómo será? ¿y los asistentes? ¿y si no aprendo nada? ¿cómo no voy a aprender nada? Si es que yo no soy conflictiva, es más ir por ver si aprendo algo de comunicación... **¡¡BASTA!!**

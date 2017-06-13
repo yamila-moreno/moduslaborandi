@@ -5,8 +5,6 @@ date: 2013-02-24 15:24:58+00:00
 slug: kosdem-2013
 title: Kosdem 2013
 wordpress_id: 290
-categories:
-- General
 ---
 
 [![](/images/2013/02/chimbo_fondo_transparente.png)](http://kaleidos.net)

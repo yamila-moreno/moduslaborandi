@@ -5,9 +5,6 @@ date: 2015-12-02 18:55:58+00:00
 slug: pycones-2015-djangogirls-postmortem
 title: 'PyConES 2015: DjangoGirls Postmortem'
 wordpress_id: 984
-categories:
-- Open source
-- Tutorials
 tags:
 - django
 - djangogirls

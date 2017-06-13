@@ -5,8 +5,6 @@ date: 2013-01-24 13:03:02+00:00
 slug: tu-tasa-de-paro
 title: Tu tasa de paro
 wordpress_id: 137
-categories:
-- General
 tags:
 - kaleidos.net
 - piweek

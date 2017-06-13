@@ -5,8 +5,6 @@ date: 2014-10-27 22:58:47+00:00
 slug: ttparo-es-3-trimestre-2014
 title: TTPARO.es 3er trimestre 2014
 wordpress_id: 576
-categories:
-- Open source
 post_format:
 - Aside
 tags:

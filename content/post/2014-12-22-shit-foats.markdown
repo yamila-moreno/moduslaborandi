@@ -6,8 +6,6 @@ published: false
 slug: shit-foats
 title: Shit foats
 wordpress_id: 673
-categories:
-- General
 ---
 
 Maybe it will take long, but it will float. Ey! don't look at me THAT way; those are not my words, but my brother's boss's words; he is a man who knows a lot and isn't shy with his thoughts.

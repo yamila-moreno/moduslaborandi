@@ -5,9 +5,6 @@ date: 2015-12-17 17:18:14+00:00
 slug: ix-piweek-monitoring-with-elk-iii
 title: 'IX PIWEEK: monitoring with ELK (III)'
 wordpress_id: 1042
-categories:
-- Open source
-- Tutorials
 tags:
 - elasticsearch
 - elk

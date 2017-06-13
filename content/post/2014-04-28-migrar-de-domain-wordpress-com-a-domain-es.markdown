@@ -5,9 +5,6 @@ date: 2014-04-28 19:26:31+00:00
 slug: migrar-de-domain-wordpress-com-a-domain-es
 title: Migrar de domain.wordpress.com a domain.es
 wordpress_id: 378
-categories:
-- General
-- Tutorials
 tags:
 - vim
 - wordpress

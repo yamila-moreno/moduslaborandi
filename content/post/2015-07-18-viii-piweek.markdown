@@ -5,9 +5,6 @@ date: 2015-07-18 18:40:58+00:00
 slug: viii-piweek
 title: VIII PIWEEK
 wordpress_id: 879
-categories:
-- General
-- Open source
 tags:
 - kaleidos.net
 - motivation

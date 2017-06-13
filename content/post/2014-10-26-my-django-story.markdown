@@ -5,9 +5,6 @@ date: 2014-10-26 20:16:45+00:00
 slug: my-django-story
 title: My Django Story
 wordpress_id: 571
-categories:
-- General
-- Open source
 post_format:
 - Aside
 tags:

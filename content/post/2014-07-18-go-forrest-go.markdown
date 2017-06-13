@@ -5,8 +5,6 @@ date: 2014-07-18 13:40:17+00:00
 slug: go-forrest-go
 title: Go, Forrest, go
 wordpress_id: 465
-categories:
-- General
 ---
 
 _Go, Forrest, go_ es el original nombre que [Eduardo](https://twitter.com/eferro) puso al proyecto de [Piweek](http://piweek.com). Además le hizo este logo tan alucinante.

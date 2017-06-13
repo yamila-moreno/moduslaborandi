@@ -5,8 +5,6 @@ date: 2014-12-30 15:54:43+00:00
 slug: groovy-101-grape-and-tests-with-spock
 title: 'Groovy 101 (II): Grape and tests with Spock'
 wordpress_id: 738
-categories:
-- Tutorials
 tags:
 - grape
 - groovy

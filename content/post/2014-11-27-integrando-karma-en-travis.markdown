@@ -5,8 +5,6 @@ date: 2014-11-27 22:26:09+00:00
 slug: integrando-karma-en-travis
 title: Integrando Karma en Travis
 wordpress_id: 633
-categories:
-- General
 ---
 
 Tras el post de [Alex](http://twitter.com/lekum) sobre [Travis 101](http://moduslaborandi.net/continuous-integration-101-travis/), tenía ganas de dedicarle un rato al tutorial.

@@ -5,9 +5,6 @@ date: 2013-12-09 11:02:21+00:00
 slug: mujeres-y-tecnologia
 title: Mujeres y tecnología
 wordpress_id: 367
-categories:
-- General
-- Open source
 post_format:
 - Aside
 tags:

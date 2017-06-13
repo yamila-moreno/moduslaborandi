@@ -5,8 +5,6 @@ date: 2014-12-26 11:05:04+00:00
 slug: intro-to-the-filesystem-hierarchy-standard
 title: Intro to the Filesystem Hierarchy Standard
 wordpress_id: 708
-categories:
-- General
 ---
 
 Have you ever wondered why some programs are installed in /bin, /sbin, /usr/bin or /opt? Or why there is a /tmp directory? The answer is in the [Filesystem Hierarchy Standard](http://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard), a standard whom most Linux and Unix-like OS's adhere to.<!-- more -->

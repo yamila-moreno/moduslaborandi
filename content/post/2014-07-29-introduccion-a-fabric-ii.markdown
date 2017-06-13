@@ -5,8 +5,6 @@ date: 2014-07-29 17:44:25+00:00
 slug: introduccion-a-fabric-ii
 title: Introducción a Fabric (II)
 wordpress_id: 498
-categories:
-- Tutorials
 tags:
 - fabric
 - python

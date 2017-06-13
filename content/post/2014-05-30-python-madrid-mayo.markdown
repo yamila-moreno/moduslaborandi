@@ -5,8 +5,6 @@ date: 2014-05-30 09:35:46+00:00
 slug: python-madrid-mayo
 title: Python Madrid Mayo
 wordpress_id: 392
-categories:
-- General
 ---
 
 Ayer tuvimos la sesión de [Python Madrid](http://twitter.com/python_madrid) en las oficinas de [Kaleidos](http://kaleidos.net). Últimamente estamos probando el formato de dos charlas breves, y parece que está funcionando muy bien. Las charlas de ayer fueron sobre usar Django al estilo Flask y una introducción a Pandas.

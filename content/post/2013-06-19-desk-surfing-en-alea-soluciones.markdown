@@ -5,8 +5,6 @@ date: 2013-06-19 21:38:35+00:00
 slug: desk-surfing-en-alea-soluciones
 title: Desk-surfing en Alea Soluciones
 wordpress_id: 321
-categories:
-- Metodology
 post_format:
 - Aside
 tags:

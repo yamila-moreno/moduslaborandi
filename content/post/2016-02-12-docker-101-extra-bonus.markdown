@@ -5,9 +5,6 @@ date: 2016-02-12 13:29:39+00:00
 slug: docker-101-extra-bonus
 title: Docker 101 - Extra bonus
 wordpress_id: 1072
-categories:
-- Open source
-- Tutorials
 tags:
 - docker
 - my modus

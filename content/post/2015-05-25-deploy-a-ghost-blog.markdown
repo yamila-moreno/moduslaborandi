@@ -5,9 +5,6 @@ date: 2015-05-25 16:39:25+00:00
 slug: deploy-a-ghost-blog
 title: Deploy a ghost blog
 wordpress_id: 848
-categories:
-- Open source
-- Tutorials
 tags:
 - blog
 - ghost

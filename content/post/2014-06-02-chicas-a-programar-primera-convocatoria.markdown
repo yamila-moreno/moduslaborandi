@@ -5,8 +5,6 @@ date: 2014-06-02 10:17:38+00:00
 slug: chicas-a-programar-primera-convocatoria
 title: Chicas, ¡a programar!
 wordpress_id: 405
-categories:
-- General
 ---
 
 El próximo martes día 10 vamos a poner en marcha una iniciativa en Madrid: consiste en que unas cuantas chicas nos reunamos un día al mes (para empezar, pero después, ¡quién sabe!) en las oficinas de [Kaleidos](http://kaleidos.net) para programar, hacer algún tutorial, probar algo nuevo... Una reunión donde nos encontremos a gusto para seguir aprendiendo, preguntando y mejorando nuestras habilidades de programación.

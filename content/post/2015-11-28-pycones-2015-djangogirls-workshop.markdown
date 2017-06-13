@@ -5,9 +5,6 @@ date: 2015-11-28 11:59:22+00:00
 slug: pycones-2015-djangogirls-workshop
 title: 'PyConES 2015: DjangoGirls workshop'
 wordpress_id: 978
-categories:
-- Open source
-- Tutorials
 tags:
 - django
 - djangogirls
