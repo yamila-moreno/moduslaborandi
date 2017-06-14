@@ -11,58 +11,59 @@ thumbnailImagePosition: left
 thumbnailImage: https://ih0.redbubble.net/image.282529586.5735/flat,200x200,075,f.u2.jpg
 ---
 
-Nuevo tutorial para principiantes, para iniciarse en Swarm, una herramienta de orquestación que viene por defecto con docker. Este tutorial lo he escrito después de seguir <a href="https://docs.docker.com/engine/swarm/swarm-tutorial/" target="_new">el tutorial de la documentación oficial</a> y tras destilar lo que entiendo que es más útil para empezar.
+New tutorial for beginners, this time is an introduction to Swarm, an <a href="https://www.quora.com/What-is-orchestration" target="_new">orchestration</a> tool which comes with Docker. I wrote this tutorial after following the <a href="https://docs.docker.com/engine/swarm/swarm-tutorial/" target="_new">official quickstart</a> and after filtering which I think is the most useful information to start with orchestration.
 <!--more-->
 
-Igualmente, añado algunas explicaciones de lo que personalmente más me costó entender.
+Likewise, I'm adding some explanations of what I found most difficult to understand.
 
 <h2>Previously in Kubernetes</h2>
 
-Hace unos meses hice un tutorial de <a href="" target="_new">Kubernetes</a>, el orquestador de Google, y que actualmente está teniendo más tracción. Durante el tutorial y después, me sentí muy así:
+Some months ago, I followed a <a href="https://kubernetes.io/" target="_new">Kubernetes</a> tutorial, the Google orchestrator, which these days have the most traction power. During and after the excercise, I felt like:
 
 <figure>
   <img src="https://i1.wp.com/vinodvihar75.files.wordpress.com/2014/12/dogs-2.jpg?w=290&h=217&crop&ssl=1" alt="Dog typing in a keyboard" />
   <figcaption>Don't know what I'm doing</figcaption>
 </figure>
 
-Me pareció una herramienta muy sofisticada y muy poco beginer-friendly. Esto tenía sentido dado que es una herramienta relativamente nueva, y esto afecta a la madurez de la documentación; además, está resolviendo un problema complejo, y que estaba totalmente fuera de mi zona de conocimiento. Así que la conclusión fue que los orquestadores no eran lo mío.
+It seemed to me a very sophisticated tool, far from being beginner-friendly. This made sense, because it's a relatively new tool, which affects the maturity of documentation; besides, it was solving a complex problem, outside my knowledge zone. Thus, I concluded that orchestration wasn't my thing.
 
-Sin embargo, tras dedicar un par de semanas a estudiar y probar las cuestiones básicas de Swarm, creo que sí hay una forma de acercarse a los orquestadores más adecuada para beginers. ¡Así que vamos allá!
+However, I've spent two weeks studying the basis of Swarm, and now I think there is a way of approaching the question, more suitable for beginners. So, there we go!
 
-<h2>Objetivo detallado</h2>
+<h2>Detailed goal</h2>
 
-He consultado varios tutoriales sobre Swarm, y he visto que hay distintas aproximaciones, así que considero útil compartir el alcance concreto de este tutorial. Lo que pretendo que veamos es:
+I've looked through several Swarm tutorials, and I've seen different approaches, so maybe it's useful to share the specific scope of this tutorial; what I want to show is:
 
-* conceptos básicos de orquestación: estado, réplicas, nodos, manager, worker, routing
-* comandos para crear un cluster de Swarm
-* comandos básicos para desplegar imágenes en un Swarm
-* cómo escribir un <code>docker-compose.yml</code> en versión 3, que pueda usarse con Swarm
+* basic concepts of orchestration: state, replicas, nodes, manager, worker, routing
+* basic commands to create a Swarm cluster
+* basic commands to deploy docker images in a Swarm
+* how to write a <code>docker-compose.yml</code> file in version 3, which can be used in a Swarm
+
+All this information will be split in several posts to make it easier to follow.
 
 <h2>Assumptions</h2>
 
-Este tutorial asume que entiendes lo básico de docker. Si es la primera vez que vas a tocar docker, te recomiendo que dediques un rato a este <a href="" target="_new">tutorial de introducción a docker</a> y a este otro <a href="" target="_new">tutorial de introducción a Dockerfile</a>.
+This tutorial assumes that you understand the basis of docker. If it's the first time you're going to deal with docker, I recommend you to spend a while with this <a href="http://moduslaborandi.net/2016/02/docker-101-hello-world/" target="_new">introduction to docker</a> and with this other <a href="http://moduslaborandi.net/2016/02/docker-101-dockerfile/" target="_new">introduction to Dockerfile</a>.
 
-Además, pondré un ejemplo más detallado que empieza una vez que hemos conseguido poner nuestra aplicación en una imagen de docker accesible a través de un registry. Este tema lo he tratado recientemente en esta <a href="" target="_new">introducción a Gitlab CI</a>
+Besides, I'll use an example that starts after we can put our application in a docker image available through a registry. I published recently an <a href="http://moduslaborandi.net/2017/06/gitlabci-101/" target="_new">introduction to GitlabCI</a> that you may find useful.
 
-<h2>¡Empezamos!</h2>
+<h2>Let's start!</h2>
 
-Queremos aprender a orquestar con Swarm. **Orquestación** es el conjunto de herramientas y prácticas para poner en producción aplicaciones que puedan estar en alta disponibilidad (el servicio siempre responde), donde la infraestructura escale rápidamente (si hay un pico de demanda, el servicio se puede hacer más grande de forma rápida). Para ello vamos a usar el <em>modo Swarm</em> que viene por defecto con docker. Y necesitaremos un **cluster**, que es el conjunto de máquinas físicas disponibles para Swarm donde desplegamos los workers de Swarm. Estas máquinas han de tener visibilidad entre ellas.
+We'd like to learn how to orchestrate with Swarm. **Orchestration** is the set of tools and practices to deploy applications that can be in HA (high availability, the service is always responding), and where the infrastructure can scale quickly (if there is a peak, the service can be updated seamlessly). To achieve that, we're going to use <em>Swarm mode</em> that comes by default with docker. We'll need a **cluster**: the (tipically physical) machines available for creating the nodes for Swarm. Those machines need to have visibility between them.
 
-Vamos a montarnos un cluster en nuestra máquina que replique lo que podría ser un cluster en la nube: vamos a usar Vagrant para levantar 3 máquinas virtuales (nodos). Podéis usar <a href="https://github.com/yamila-moreno/vagrant-cluster" target="_new">este Vagrantfile</a> y su provisión. Si hacéis <code>vagrant up</code> junto al <em>Vagrantfile</em>, se levantarán 3 máquinas virtuales con ubuntu y con docker instalado. Lo podéis comprobar con <code>vagrant status</code>.
+So we're going to create a cluster in our machine, which replicates a scenario similar to what could be the cloud. With Vagrant, we're using 3 virtual machines (that will be our nodes). You can use this <a href="https://github.com/yamila-moreno/vagrant-cluster" target="_new">Vagrantfile</a> and its provision. If you type <code>vagrant up</code> in the <em>Vagrantfile</em> directory, the system will load 3 virtual machines with ubuntu (and docker).
 
-{{< alert warning >}} No ejecutéis los comandos de Swarm en vuestra máquina directamente; activar el modo Swarm, modifica la forma de trabajar de vuestro docker y probablemente os toque dar marcha atrás. Lo mejor es que uséis las VMs en Vagrant. {{< /alert >}}
+{{< alert warning >}} Don't try the Swarm commands directly in your machine; when activating the Swarm mode, your docker will be modified and you'll probably need to rollback some changes. The best option is to use the virtual machines in Vagrant. {{< /alert >}}
 
-Swarm trabaja distribuyendo los servicios entre las máquinas del cluster. Cada máquina, por defecto, es un **worker**; pero además, algunas máquinas son **managers**: estos managers conocen el estado del cluster, si un nodo se cae, lo detectan automáticamente y ponen en marcha medidas para recuperar el **estado de la aplicación** deseado. En un cluster de Swarm siempre debe haber número impar de managers de forma que puedan usar algoritmos de consenso.
+Swarm works distributing the services among the cluster machines. Each machine, by default is a **worker**; in addition, some machines are **managers**: those managers know the state of the cluster; if a node falls, managers detect it and launch measures to restablish the desired **application state**. In a Swarm cluster there should be always an odd number of managers, so they can use **consensus algorithms**.
 
-Así que lo primero que vamos a hacer es inicializar una de las máquinas como manager (server1) y vamos a asociar el resto (server2 y server3) como workers:
-
+So first thing we're gonna do is to initialize one of the machines as a manager (server1) and we're going to associate the rest (server2 and server3) as workers:
 ```
-# accedemos a server1
+# enter the server1
 (myhost)$ vagrant ssh server1
 (server1)$ docker swarm init --advertise-addr 10.0.15.21
 ```
 
-Este comando nos devuelve el comando que debemos usar para asociar el resto de máquinas al cluster de Swarm. Algo similar a:
+The output of this command is needed to associate the rest of the nodes to the cluster; the output will be similar to:
 ```
 Swarm initialized: current node (dxn1zf6l61qsb1josjja83ngz) is now a manager.
 
@@ -73,22 +74,23 @@ To add a worker to this swarm, run the following command:
     192.168.99.100:2377
 ```
 
-Si por lo que sea perdemos este comando porque se nos cierra la ventana o similar, podemos recuperarlo ejecutando lo siguiente desde la máquina con el manager:
+If by any chance, we lose this command (maybe we close the window terminal), we can recover it executing in the manager node the following command:
 ```
 (server1)$ docker swarm join-token worker
 ```
 
-Ahora entramos en las otras dos máquinas y ejecutamos el <code>docker swarm join --token...</code> en server2 y server3. ¡Listo! Ya tenemos un cluster de Swarm montado. Un par de comandos útiles son:
+Now we have to enter in both of the other machines and execute this <code>docker swarm join --token...</code> command in server2 and server3. Done! We've a Swarm cluster up and running. Now, a couple of useful commands:
 ```
-# para ver los nodos que intervienen en el cluster
-(server1)$ docker node ls
-# para ver qué servicios hay en el cluster
+# to see the list of services in a cluster
 (server1)$ docker service ls
+
+# to see the nodes in a cluster
+(server1)$ docker node ls
 ID                            HOSTNAME     STATUS     AVAILABILITY     MANAGER STATUS
 niqaah8mhlou9gij2fye046sq *   server1      Ready      Active           Leader
 qowv0xmux806zu5u7f7or4yed     server2      Ready      Active
 w92gfg7dwl33esmmk7acnhcdk     server3      Ready      Active
 ```
-El asterisco indica el nodo en el que estás en ese momento, y <em>Leader</em> indica que ese es un nodo manager.
+The asterisk indicates the current node, and <em>Leader</em> tells that this is a manager node.
 
-¡Bien hecho! Hasta aquí hemos visto algunos conceptos principales y hemos creado un cluster. El siguiente post veremos cómo crear servicios, actualizarlos e inspeccionarlos. Pero ahora puede ser un buen momento para que estires las piernas. ¡Hasta el próximo post!
+Well done! So far, we've seen some basic concepts and we've created a cluster. Next post will cover how to create services, update and inspect them. But now, it could be a good moment to stretch your legs. See you in the next post!
