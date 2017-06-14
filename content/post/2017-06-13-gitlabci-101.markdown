@@ -93,7 +93,16 @@ test-library:
     - master
 ```
 
-If you'd like to know more about the methods to build and run containers [1], check <a href="ihttps://docs.gitlab.com/ee/ci/docker/using_docker_build.html">the official documentation</a>. Besides, you should take a look to the <a href="https://docs.gitlab.com/ee/ci/yaml/" target="_new">.gitlab-ci.yml reference</a> to learn about the sections and the different options. You won't need all the options in each job, but it's useful to know what can be done.
+If you'd like to know more about the methods to build and run containers, like the "docker in docker" mentioned above [1], check <a href="ihttps://docs.gitlab.com/ee/ci/docker/using_docker_build.html">the official documentation</a>. Besides, you should take a look to the <a href="https://docs.gitlab.com/ee/ci/yaml/" target="_new">.gitlab-ci.yml reference</a> to learn about the sections and the different options. An important topic in the <em>yaml</em> file are the <a href="https://docs.gitlab.com/ee/ci/variables/README.html" target="_new">gitlab variables</a>, some automatic useful variables about the environment, like:
+
+|  Variable          | GitLab | Runner | Description                                                                                                                                   |
+|--------------------|--------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| CI_COMMIT_REF_SLUG | 9.0    | all    | $CI_COMMIT_REF_NAME lowercased, shortened to 63 bytes, and with everything except 0-9 and a-z replaced with -. Use in URLs and domain names.  |
+| CI_COMMIT_SHA 	 | 9.0    | all    | The commit revision for which project is built                                                                                                |
+| CI_COMMIT_TAG 	 | 9.0    | 0.5    | The commit tag name. Present only when building tags.                                                                                         |
+| CI_DEBUG_TRACE 	 | all    | 1.7    | Whether debug tracing is enabled                                                                                                              |
+
+You won't need all the options in each job, but it's useful to know what can be done.
 
 Once we have this new file, we add it to the repository, commit and push to gitlab.com (in master branch!). Now, go to the administration panel of the repository, to the <em>Pipelines</em> section. There you'll see something like this:
 
