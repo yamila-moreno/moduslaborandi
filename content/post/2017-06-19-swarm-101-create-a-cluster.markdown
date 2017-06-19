@@ -1,7 +1,7 @@
 ---
 author: yamila
 comments: true
-published: false
+published: true
 date: 2017-06-19 10:02:22+00:00
 slug: swarm-101-create-a-cluster
 title: Swarm 101 - Create a cluster
