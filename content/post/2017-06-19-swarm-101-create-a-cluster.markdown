@@ -49,7 +49,7 @@ Besides, I'll use an example that starts after we can put our application in a d
 
 <h2>Let's start!</h2>
 
-We'd like to learn how to orchestrate with Swarm. **Orchestration** is the set of tools and practices to deploy applications that can be in HA (high availability, the service is always responding), and where the infrastructure can scale quickly (if there is a peak, the service can be updated seamlessly). To achieve that, we're going to use <em>Swarm mode</em> that comes by default with docker. We'll need a **cluster**: the (tipically physical) machines available for creating the nodes for Swarm. Those machines need to have visibility between them.
+We'd like to learn how to orchestrate with Swarm. **Orchestration** is the set of tools and practices to deploy applications that can be in HA (high availability, the service is always responding), and where the infrastructure can scale quickly (if there is a peak, the service can be updated seamlessly). To achieve that, we're going to use <em>Swarm mode</em> that comes out-of-the-box with docker. We'll need a **cluster**: the (tipically physical) machines available for creating the nodes for Swarm. Those machines need to have visibility between them.
 
 So we're going to create a cluster in our machine, which replicates a scenario similar to what could be the cloud. With Vagrant, we're using 3 virtual machines (that will be our nodes). You can use this <a href="https://github.com/yamila-moreno/vagrant-cluster" target="_new">Vagrantfile</a> and its provision. If you type <code>vagrant up</code> in the <em>Vagrantfile</em> directory, the system will load 3 virtual machines with ubuntu (and docker).
 
