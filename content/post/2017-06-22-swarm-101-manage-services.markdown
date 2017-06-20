@@ -13,9 +13,9 @@ tags:
 Second post of the tutorial <em>Swarm for beginners</em>. This post will cover the creation of services, update them in different ways, inspecting them, publishing ports and removing the services. Now, what's a service?
 <!--more-->
 
-A service in a Swarm cluster is each application we want to deploy; tipycally, we think of micro-services because those application should tend to be small pieces. Examples of services: API, database, front, backoffice, queues, application server...
+A service in a Swarm cluster is each application we want to deploy; tipically, we think of micro-services because those application should tend to be small pieces. Examples of services: API, database, front, backoffice, queues, application server...
 
-You should follow this post after the <a href="http://moduslaborandi.net/2017/06/swarm-101-create-a-cluster/" target="_new">post of how to create a cluster</a>. In this post, we'll deal only with stateless services. If we need a database, we'll put it outside the cluster for now; replicating and synchronizing databases have other concerns that are way far from the scope of this post or tutorial (or my current knowledge :P). The same applies to static files, we can assume that they are out of the cluster (for instance in a Amazon S3).
+You should follow this post after the <a href="http://moduslaborandi.net/2017/06/swarm-101-create-a-cluster/" target="_new">post of how to create a cluster</a>. In this post, we'll deal only with stateless services. If we need a database, we'll put it outside the cluster for now; replicating and synchronizing databases have other concerns that are way far from the scope of this post or tutorial (or my current knowledge :P). The same applies to static files, we can assume that they are out of the cluster (for instance in Amazon S3).
 
 <h2>Creating services</h2>
 
@@ -100,7 +100,7 @@ As well as creating a service, we can remove it:
 
 <h2>Updating services</h2>
 
-We can update a service changing the state (number of replicas for instance) or changing the proper service (the docker image, the command, the published ports, etc). Both cases work in the same way, with the command <code>docker update</code>. Let's go through some examples. First of all, we want to create the same <em>myping</em> service:
+We can update a service changing the state (number of replicas for instance) or changing the proper service (the docker image, the command, the published ports, etc). Both cases work in the same way, with the command <code>docker service update</code>. Let's go through some examples. First of all, we want to create the same <em>myping</em> service:
 ```
 (server1)$ docker service create --replicas 1 --name myping alpine ping docker.com
 ```
@@ -155,6 +155,6 @@ Every time we create a service that exposes a port, Swarm will open the same por
 
 Mind you, this <em>routing mesh</em> applies only to the exposed ports; inside the cluster, the containers see each other through the overlay network, as it happens with regular docker containers.
 
-You can inspect the nginx service, remove it, create again and update to more replicas. Try to play a bit with the commands so you can feel confortable with the Swarm interface and options. Well done! Thanks for following the tutorial up to this point, and congratulations, you've learned some interesting things about orchesetration.
+You can inspect the nginx service, remove it, create again and update to more replicas. Try to play a bit with the commands so you can feel confortable with the Swarm interface and options. Well done! Thanks for following the tutorial up to this point, and congratulations, you've learned some interesting things about orchestration.
 
 In the next post, you'll learn how to manage a swarm with a <em>docker-compose.yml</em> file with our own project, so it will be even more understandable. And feel free to drop any comments below. Happy hacking!
