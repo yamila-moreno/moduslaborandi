@@ -1,7 +1,6 @@
 ---
 author: yamila
 comments: true
-published: false
 date: 2017-06-22 10:02:22+00:00
 slug: swarm-101-manage-services
 title: Swarm 101 - Manage services
