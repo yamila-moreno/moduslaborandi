@@ -1,8 +1,7 @@
 ---
 author: yamila
 comments: true
-published: false
-date: 2017-06-26 10:02:22+00:00
+date: 2017-06-27 10:02:22+00:00
 slug: swarm-101-docker-compose-yml
 title: Swarm 101 - docker-compose.yml
 tags:
