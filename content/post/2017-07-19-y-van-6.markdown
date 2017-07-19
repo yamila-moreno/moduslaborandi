@@ -1,0 +1,36 @@
+---
+author: yamila
+comments: true
+date: 2017-07-19 10:02:22+00:00
+slug: y-van-6
+title: Y van 6...
+tags:
+- kaleidos
+- my modus
+---
+
+Esta semana <a href="http://kaleidos.net" target="_new">Kaleidos</a> ha cumplido 6 años. Una empresa que nació de improviso y algo precipitadamente, y que ha significado tanto para unas pocas personas.
+
+<!--more-->
+
+Como siempre, el aniversario coincide con una <a href="http://piweek.com" target="_new">Piweek</a>, ¡la decimosegunda Piweek en 6 años! Este año me apunté a un proyectazo con mucha ilusión; unas compañeras de <a href="http://secuoyas.com" target="_new">Secuoyas</a> nos comentaron que querían hacer algo para visibilizar citas célebres de mujeres. En la mayoría de presentaciones, cuando se ilustra alguna diapositiva con una cita, se usan grandes frases de hombres (Churchill, Chesteron, Lincoln, os miro a vosotros). A veces ni siquiera son "grandes frases", pero ahí están. Así que quisimos hacer una plataforma para dar visibilidad a citas escritas por mujeres. Al proyecto se unieron compis de Kaleidos, de Secuoyas, de <a href="http://adalab.es" target="_new">Adalab</a> e incluso una developer amiga mía que se apuntó a la piweek. Todo el equipo integrado por mujeres para ayudar a proyectar grandes voces. Así nació en una semana el prototipo de <a href="http://verba-mujer.es" target="_new">Verba</a>, al que queremos seguir dando cariño en nuestros ratos.
+
+<figure>
+<img src="https://farm5.staticflickr.com/4315/35898095561_d2abb5770c_c.jpg" />
+<figcaption>Piweek XII</figcaption>
+</figure>
+
+
+
+Como en Kaleidos cualquier excusa es buena para montar un picoteo, piscolabis o salir a comer, no podíamos dejar pasar el aniversario. Durante la comida compartimos unas cuantas anécdotas, batallitas e hicimos un poco de retrospectiva improvisada. Nos preguntamos: ¿qué habríamos pensado si en aquellos primeros meses hubiéramos visto por un agujerito la empresa que formamos hoy? En general nos dimos cuenta de que no habríamos sabido ver el camino; hemos tenido que hacer algunos virajes arriesgados difíciles de prever, y hemos crecido mucho en este tiempo.
+
+Hace poco publicamos el <a href="https://kaleidos.github.io/libro-blanco/" target="_new">libro blanco</a> de Kaleidos, donde compendiamos un montón de información sobre cuál es el espíritu de la empresa y cómo se implementa: flexibilidad, familiaridad, ética, diversidad, open source, mejora técnica... Y creo que en general lo estamos haciendo bien cuando ex-compis de Kaleidos siguen viniendo a nuestras cenas o a nuestras Piweeks.
+
+Cada año <em>trípode</em> (CEO, CTO y CIO) se devanan los sesos para darnos un regalo original. Este año, con la ayuda del alucinante e increíble <a href="http://twitter.com/elhombretecla" target="_new">Juan</a>, se han superado. Os dejo la ilustración que me hizo y a la que estoy buscando un marco que esté a la altura:
+
+<figure>
+<img src="https://farm5.staticflickr.com/4301/35898093691_2312013933_c.jpg" />
+<figcaption>:______)</figcaption>
+</figure>
+
+A por otro año, a por más aprendizaje y a por más ilusión. ¡Un besote a todas!
