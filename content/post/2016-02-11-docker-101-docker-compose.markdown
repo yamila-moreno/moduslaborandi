@@ -16,7 +16,7 @@ In this post we're learning about **docker-compose** which, according to the [of
 
 <!-- more -->
 
-It's important that you have present [previous](http://moduslaborandi.net/docker-101-hello-world/) [posts](http://moduslaborandi.net/docker-101-dockerfile/) to go forward.
+It's important that you have present [previous](http://moduslaborandi.net/2016/02/docker-101-hello-world/) [posts](http://moduslaborandi.net/2016/02/docker-101-dockerfile/) to go forward.
 
 Docker-compose is a tool to build and run multiple containers and deal with its configuration from a single file, which is called **docker-compose.yml**. In the scope of this introduction we're only learning the _running_ options, so we'll keep almost all the _Dockerfiles_.
 
