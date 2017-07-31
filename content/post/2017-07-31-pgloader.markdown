@@ -1,0 +1,49 @@
+---
+author: yamila
+comments: true
+date: 2017-07-31
+slug: pegandome-con-pgloader
+title: Pegándome con pgloader
+tags:
+- postgres
+- mysql
+- pgloader
+- docker
+---
+
+He estado varios días intentando migrar un esquema de MySQL a PostgreSQL con <a href="http://pgloader.io/" target="_new">pgloader</a>; lo que a priori es relativamente sencillo, me ha llevado por varios puntos muertos que he podido desbloquear tras googlear un rato y muchas pruebas.
+
+<!--more-->
+
+Lo primero que hice fue probar con <a href="https://www.docker.com/" target="_new">docker</a>; la idea era librarme de instalar software en mi máquina. Tras muchas pruebas, todas fallidas, di con <a href="https://github.com/dimitri/pgloader/issues/511" target="_new">este hilo en el Github del proyecto</a> que mencionaba uno de los errores que me estaba encontrando:
+```
+Couldn't re-execute SBCL with proper personality flags (/proc isn't mounted? setuid?)
+```
+
+Resulta que por unas dependencias con SBCL el problema era precisamente correr pgloader en docker. Así que tocaba buscar alternativas. Aún me resistía a instalar software en mi máquina, así que opté por arrancar una virtualbox con Vagrant y a instalar todo el software necesario. Tras instalarlo y cargar el esquema en mysql, he creado un script para la migración:
+
+```
+-- import_mysql.load
+LOAD DATABASE
+FROM mysql://root@localhost/db_name
+INTO postgresql://localhost/db_name
+
+ WITH include drop, create tables, no truncate,
+      create indexes, reset sequences, foreign keys;
+```
+
+Con esto ya preparado, he lanzado el script:
+```
+$ pgloader import_mysql.load
+```
+
+donde la salida ha sido:
+```
+An unhandled error condition has been signalled:
+   MySQL Error [1055]: "Expression #6 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'information_schema.rc.UPDATE_RULE' which is not functionally dependent on columns in GROUP
+ BY clause; this is incompatible with sql_mode=only_full_group_by"
+```
+
+Un error super amable desde el que continuar. He seguido tirando del hilo y he llegado a este <a href="https://til.hashrocket.com/posts/1b47c992eb-migrate-from-mysql-to-postgres" target="_new">genial post donde solucionan el problema</a>. La cuestión es que no estaba entendiendo su solución. Así que ha tocado seguir indagando, hasta que he dado con <a href="https://www.sitepoint.com/quick-tip-how-to-permanently-change-sql-mode-in-mysql/" target="_new">este post</a> donde explican cómo cambiar el `sql_mode` en MySQL, y que es justo lo que necesitaba.
+
+Tras muchas pruebas y más errores, finalmente he podido hacer la migración de esquemas. Espero que la colección de recursos os sea útil si os encontráis en una situación similar \o/
