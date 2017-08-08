@@ -34,8 +34,8 @@ canonifyurls = true
 [author]
   name = "Yamila Moreno"
   bio = "Philologist and enthusiastic developer. Pythonista and Pylady. Janie of all trades, master of none. :) Lady Yamila of Sealand"
-  job = ""
-  location = "Colonia Beta"
+  job = "Software Developer at Kaleidos Open Source"
+  location = "Beta Colony"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "yamila.ms@gmail.com"
   # Your profile picture
@@ -100,7 +100,6 @@ canonifyurls = true
 
 
 [params]
-  custom_css = ["css/style.css"]
   favicon = "images/favicon.png"
   # Customize date format use to render blog post date, categories and other
   # You must use date format used by Go Time package https://golang.org/pkg/time/
@@ -173,18 +172,6 @@ canonifyurls = true
   # Customize like of athor avatar in sidebar
   # [params.sidebar.profile]
   #   url = "/#about"
-
-  # Config added specifically in the fork
-  showDate = true
-  showTags = true
-  showPagination = true
-  comments = true
-  showSocial = true
-  [params.social]
-    share_on_twitter = true
-    share_on_facebook = false
-    share_on_google_plus = false
-  # End config added specifically in the fork
 
   # Customize copyright value "© 2016 <CUSTOMIZATION>. All Rights Reserved"
   [params.footer]
