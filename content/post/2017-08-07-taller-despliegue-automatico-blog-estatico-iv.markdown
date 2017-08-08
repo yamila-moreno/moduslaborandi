@@ -75,6 +75,11 @@ Ahora pongamos nuestro blog en producción manualmente. Vovemos a una consola en
 Creamos un blog nuevo:
 ```
 (mihost)$ hugo new site moduslaborandi  # poned el nombre de vuestro blog
+```
+
+Es buen momento para crear el repositorio en github. Creadlo y asociad el blog al repositorio (yo he añadido el directorio `public` al `.gitignore`, no lo necesitamos en el repo), ahora ya podéis instalar los temas como submódulos:
+
+```
 (mihost)$ cd moduslaborandi
 (mihost)$ git submodule add https://github.com/kakawait/hugo-tranquilpeak-theme.git themes/hugo-tranquilpeak-theme # añado el tema que quiero como submódulo
 (mihost)$ git submodule init
