@@ -2,7 +2,7 @@
 author: yamila
 title: Taller - Despliegue automático de un blog estático (I)
 slug: taller-despliegue-automatico-blog-estatico-i
-date: 2017-08-07
+date: 2017-08-07 10:00:00+00:00
 comments: true
 tags:
 - hugo
