@@ -10,6 +10,8 @@ tags:
 - caddy
 - github
 - travis-ci
+thumbnailImagePosition: top
+thumbnailImage: https://farm5.staticflickr.com/4380/36308878171_7038f84a63.jpg
 ---
 
 En el <a href="{{< ref "2017-08-07-taller-despliegue-automatico-blog-estatico-i.markdown" >}}" target="_new">post anterior</a> pusimos en marcha un blog de prueba. El siguiente paso consiste en preparar nuestro servidor, configurar un usuario y unas medidas de seguridad básicas.

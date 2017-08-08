@@ -10,6 +10,8 @@ tags:
 - caddy
 - github
 - travis-ci
+thumbnailImagePosition: left
+thumbnailImage: https://farm5.staticflickr.com/4400/35638320023_8d7694acac.jpg
 ---
 
 La semana pasada preparé un taller para unos pocos compañeros en <a href="http://kaleidos.net" target="_new">Kaleidos</a>. Consiste en un taller práctico en el que, paso a paso, terminamos desplegando automáticamente nuestro blog en nuestro servidor. El taller tuvo muy buena acogida, así que lo dejo por aquí por si resulta útil para alguien.

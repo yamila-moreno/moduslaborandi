@@ -10,6 +10,8 @@ tags:
 - caddy
 - github
 - travis-ci
+thumbnailImagePosition: left
+thumbnailImage: https://farm5.staticflickr.com/4402/35611037194_f5271e0241.jpg
 ---
 
 Quinto y último post de la serie "*quiero publicar mi blog estático automáticamente*". Este último post contiene bastantes pasos, pero es igualmente sencillo de seguir si has hecho los cuatro anteriores. Este post consiste en crear nuestro repositorio en <a href="https://github.com" target="_new">Github</a>, darlo de alta en <a href="https://travis-ci.org" target="_new">Travis CI</a> y configurar lo necesario para que travis se encargue del despliegue.

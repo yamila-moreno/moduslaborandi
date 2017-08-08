@@ -10,6 +10,8 @@ tags:
 - caddy
 - github
 - travis-ci
+thumbnailImagePosition: right
+thumbnailImage: https://farm5.staticflickr.com/4375/36308878341_a6dd2e86e5.jpg
 ---
 
 Tercer post del tutorial; después de <a href="{{< ref "2017-08-07-taller-despliegue-automatico-blog-estatico-i.markdown" >}}" target="_new">aprender algo sobre generadores estáticos</a> y <a href="{{< ref "2017-08-07-taller-despliegue-automatico-blog-estatico-ii.markdown" >}}" target="_new">preparar nuestro servidor</a>, en este post toca instalar y configurar nuestro servidor HTTP, <a href="https://caddyserver.com" target="_new">Caddy</a>. ¡Al lío!
