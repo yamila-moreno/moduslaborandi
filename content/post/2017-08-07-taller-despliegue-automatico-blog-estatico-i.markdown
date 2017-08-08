@@ -8,6 +8,7 @@ tags:
 - hugo
 - pelican
 - caddy
+- github
 - travis-ci
 ---
 
