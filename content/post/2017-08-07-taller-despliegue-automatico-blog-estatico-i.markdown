@@ -1,4 +1,5 @@
 ---
+draft: true
 author: yamila
 title: Taller - Despliegue automático de un blog estático (I)
 slug: taller-despliegue-automatico-blog-estatico-i
