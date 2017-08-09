@@ -19,48 +19,16 @@ Aprovecharemos también para preparar nuestro blog y desplegarlo manualmente.
 
 <!--more-->
 
-Queremos conseguir montar un servicio que podamos gestionar con `systemctl`. Este post es una receta para crear un servicio sobre un ejecutable que tengamos en el sistema. Está aplicado específicamente a caddy, pero sería muy sencillo aplicarlo a otro programa.
+Queremos conseguir montar un servicio que podamos gestionar con `systemctl`. Este post es una receta para crear un servicio sobre un ejecutable que tengamos en el sistema. Está aplicado específicamente a caddy, pero sería muy sencillo aplicarlo a otro programa. Al instalar caddy, incluye un directorio con ejemplos para crear un servicio; usaremos ese ejemplo para nuestro servicio.
 
 Entramos en el servidor como `root` y creamos un fichero:
 ```
-(root)$ touch /lib/systemd/system/caddy.service
+(root)$ cp /ruta/a/caddy/init/linux-systemd/caddy.service /lib/systemd/system/caddy.service
 ```
 
-En el fichero ponemos el siguiente contenido:
-```
-[Unit]
-Description=Caddy HTTP/2 web server
-Documentation=https://caddyserver.com/docs
-After=network-online.target
-Wants=network-online.target systemd-networkd-wait-online.service
+Revisamos el fichero porque hay que cambiar un par de cosas:
 
-[Service]
-Restart=on-failure
-StartLimitInterval=86400
-StartLimitBurst=5
-
-; User and group the process will run as.
-User=yami
-
-; Letsencrypt-issued certificates will be written to this directory.
-Environment=CADDYPATH=/etc/ssl/caddy
-
-; Always set "-root" to something safe in case it gets forgotten in the Caddyfile.
-ExecStart=/ruta/a/caddy -log stdout -agree=true -conf=/ruta/a/Caddyfile -root=/var/tmp
-ExecReload=/bin/kill -USR1 $MAINPID
-
-; Limit the number of file descriptors; see `man systemd.exec` for more limit settings.
-LimitNOFILE=1048576
-; Unmodified caddy is not expected to use more than that.
-LimitNPROC=64
-
-[Install]
-WantedBy=multi-user.target
-```
-
-Fijaos en que hay que cambiar un par de cosas:
-
-- `User=yami`: aquí tenéis que poner vuestro usuario
+- `User=yami`: aquí tenéis que poner vuestro usuario. Podéis borrar la línea de `Group`.
 - `ExectStart=...`: aquí tenéis que poner correctamente las rutas al ejecutable de caddy y al Caddyfile. Además, si estás siguiendo la **opción b** (proviene del post anterior), tenéis que añadir al final de la línea `-port 80`.
 
 Tras los cambios, toca activar y arrancar el servicio:
