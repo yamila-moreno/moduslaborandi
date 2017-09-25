@@ -1,0 +1,48 @@
+---
+author: yamila
+title: PyConES 2017
+slug: pycones-2017
+date: 2017-09-24 14:00:00+00:00
+comments: true
+tags:
+- python
+- Python España
+- PyConES
+- DjangoGirls
+- comunidad
+thumbnailImagePosition: left
+thumbnailImage: https://c1.staticflickr.com/5/4340/37446328625_f93d3a6f2e_m.jpg
+---
+
+Este fin de semana la comunidad de <a href="https://es.python.org" target="_blank">Python España</a> hemos celebrado la <a href="https://2017.es.pycon.org" target="_blank">PyConES</a> en Cáceres, justo después del taller de <a href="https://djangogirls.org/caceres/" target="_blank">DjangoGirls</a> el viernes  y ha sido una experiencia fantástica: talleres, buenas charlas, un lugar excepcional, comunidad...
+
+<!--more-->
+
+<figure>
+<img src="https://c1.staticflickr.com/5/4340/37446328625_f93d3a6f2e_z.jpg" alt="Logo de PyConES 2017 Cáceres" />
+<figcaption>Ven a la PyCón...</figcaption>
+</figure>
+
+## Django Girls Cáceres
+
+El viernes fui mentora del taller de DjangoGirls, el más grande en el que he estado: unas 50 alumnas, 15 coaches y organización. Más de 70 personas pasamos el día aprendiendo y enseñando Django. Pudimos dedicar tiempo al tutorial y ver charlas geniales de las compañeras. Hubo motivación y una organización transparente que hizo que todo funcionara como la seda. Durante la conferencia vi a varias alumnas haciendo piña, buscando charlas y en distintos corrillos. Muchas me dijeron que había merecido totalmente la pena tanto el taller, como quedarse a la conferencia durante el fin de semana. Las organizadoras, Mabel y María, pueden estar super orgullosas de su labor.
+
+## PyConES 2017
+
+Este año el equipo organizador nos llevó a Cáceres. Más de 400 asistentes, 20 patrocinadores, 7 talleres, 56 charlas en 3 tracks y 2 keynotes de lujo durante dos intensos días. El formato de este año eran charlas de máximo 25 minutos, un cambio bastante grande respecto a años anteriores. Personalmente, solo tengo buenas palabras para esta decisión: contenidos más concentrados, más variedad de charlas y de ponentes; saltarse un slot era menos doloroso y ninguna charla llegó a aburrir en ningún momento.
+
+<a href="https://twitter.com/NaomiCeder" target="_blank">Naomi Ceder</a> nos hizo la charla inaugural, hablando sobre la labor de la PSF y las formas de participar en la fundación. Se nota que es una entusiasta de la comunidad de Python, aunque no perdió la oportunidad de señalar hacia dónde deberíamos mirar para seguir mejorando. Fue una charla de apertura muy inspiradora y muy apropiada en esta PyConES que (<em>anecdotal evidence</em> total) batió récords de asistencia y ponentes mujeres.
+
+Las charlas a las que fui me gustaron mucho, y me apunté unas cuantas que quiero ver cuando estén los <a href="https://www.youtube.com/c/PythonEspa%C3%B1a">vídeos</a> disponibles. Yo misma di una charla sobre orquestación con Swarm, que tuvo muy buen feedback. Y, como es habitual, las conversaciones de pasillo fueron muy enriquecedoras.
+
+<a href="https://twitter.com/astrojuanlu" target="_blank">Juanlu</a> cerró la conferencia con otra reflexión muy importante sobre quién hace y mantiene el software que usamos a diario (con algunas historias de pesadilla). Lo enlacé con el concepto de <a href="https://en.wikipedia.org/wiki/Not_invented_here" target="_blank"><em>not invented here</em></a> y cómo dedicamos a veces el tiempo. Una reflexión muy necesaria.
+
+En los puntos a mejorar, en mi opinión el cátering podría haber estado mejor gestionado: por un lado, vi que estaban descuidadas las distintas opciones alimentarias; por otro, el equipo del cátering era especialmente poco eficiente y tuvimos que pasar muchos ratos haciendo colas. A pesar de esto, la organización estuvo super atenta a todo lo que pidiéramos e intentaba resolver los despistes con ahínco.
+
+El equipo organizador, encabezado por Mario Corchero, se veía cohesionado, frenético y feliz. He tenido el privilegio de trabajar con ellos durante la preparación (soy la tesorera de la asociación) y ha sido un placer ver cómo el evento ha ido creciendo.
+
+## PyConES 2018
+
+Este año además evaluamos las 3 propuestas que llegaron para sede de PyConES 2018; las 3 con muy buena pinta y muchísimo potencial. Finalmente nos decidimos por la propuesta de Málaga y ya tengo ganas de que llegue. ¡Mucha suerte al nuevo equipo!
+
+Para cerrar, me gustaría agradecer al equipo organizador su esfuerzo, a los patrocinadores su colaboración y a los asistentes el buen ambiente: fue una PyCon para enmarcar \o/
