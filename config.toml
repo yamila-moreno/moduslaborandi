@@ -33,9 +33,9 @@ canonifyurls = true
 
 [author]
   name = "Yamila Moreno"
-  bio = "Philologist and enthusiastic developer. Pythonista and Pylady. Janie of all trades, master of none. :) Lady Yamila of Sealand"
-  job = "Software Developer at Kaleidos Open Source"
-  location = "Beta Colony"
+  bio = "Filóloga y desarrolladora entusiasta. Pythonista y Pylady. Aprendiz de todo, maestra de nada. :) Lady Yamila de Sealand"
+  job = "Software Developer en Kaleidos Open Source"
+  location = "Colonia Beta"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "yamila.ms@gmail.com"
   # Your profile picture
