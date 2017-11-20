@@ -7,7 +7,6 @@ title: Comenzamos
 wordpress_id: 10
 tags:
 - my modus
-archives: archives
 ---
 
 Llevo tiempo con la idea de abrir un blog, y como sucederá a tantos, un millón de dudas me asaltan y otro millón de impedimentos me detienen. Porque las dudas y los impedimentos suelen venir de millón en millón y son esencialmente difíciles de desenmarañar, ¿verdad?
