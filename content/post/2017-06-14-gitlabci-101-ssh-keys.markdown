@@ -26,7 +26,7 @@ At the end of the post you will be able to create a tag in a gitlabci job and pu
 
 First of all, you need a pair of ssh keys.
 
-{{< alert danger >}} Do not use  your existing keys; create new keys only for Gitlab, so you can revoke them easily if needed. {{< /alert >}}
+| Do not use  your existing keys; create new keys only for Gitlab, so you can revoke them easily if needed.
 
 ```
 $ ssh-keygen -t rsa -C "agent@gitlab.com" -b 4096

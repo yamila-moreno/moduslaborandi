@@ -95,7 +95,7 @@ As well as creating a service, we can remove it:
 (server1)$ docker service rm myping
 ```
 
-{{< alert warning >}} You cannot remove a service by removing its containers. If you delete a container, Swarm will be noticed and will create a new replica to keep the state of the service. This is part of the awesomeness of Swarm. {{< /alert >}}
+| You cannot remove a service by removing its containers. If you delete a container, Swarm will be noticed and will create a new replica to keep the state of the service. This is part of the awesomeness of Swarm.
 
 <h2>Updating services</h2>
 

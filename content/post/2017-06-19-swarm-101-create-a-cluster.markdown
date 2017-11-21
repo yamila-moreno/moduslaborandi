@@ -53,7 +53,7 @@ We'd like to learn how to orchestrate with Swarm. **Orchestration** is the set o
 
 So we're going to create a cluster in our machine, which replicates a scenario similar to what could be the cloud. With Vagrant, we're using 3 virtual machines (that will be our nodes). You can use this <a href="https://github.com/yamila-moreno/vagrant-cluster" target="_new">Vagrantfile</a> and its provision. If you type <code>vagrant up</code> in the <em>Vagrantfile</em> directory, the system will load 3 virtual machines with ubuntu (and docker).
 
-{{< alert warning >}} Don't try the Swarm commands directly in your machine; when activating the Swarm mode, your docker will be modified and you'll probably need to rollback some changes. The best option is to use the virtual machines in Vagrant. {{< /alert >}}
+| Don't try the Swarm commands directly in your machine; when activating the Swarm mode, your docker will be modified and you'll probably need to rollback some changes. The best option is to use the virtual machines in Vagrant.
 
 Swarm works distributing the services among the cluster machines. Each machine, by default is a **worker**; in addition, some machines are **managers**: those managers know the state of the cluster; if a node falls, managers detect it and launch measures to restablish the desired **application state**. In a Swarm cluster there should be always an odd number of managers, so they can use **consensus algorithms**.
 
