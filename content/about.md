@@ -8,6 +8,8 @@ tags:
 - my modus
 ---
 
+Hola, soy Yamila.
+
 Filóloga y desarrolladora entusiasta. Pythonista y Pylady. Aprendiz de todo, maestra de nada. :)
 
 Lady Yamila de Sealand

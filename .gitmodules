@@ -3,4 +3,4 @@
 	url = https://github.com/kakawait/hugo-tranquilpeak-theme.git
 [submodule "themes/beautifulhugo"]
 	path = themes/beautifulhugo
-	url = git@github.com:halogenica/beautifulhugo.git
+	url = https://github.com/halogenica/beautifulhugo.git
