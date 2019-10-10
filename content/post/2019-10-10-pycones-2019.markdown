@@ -1,0 +1,53 @@
+---
+author: yamila
+title: PyConES 2019
+slug: pycones-2019
+date: 2019-10-10 14:00:00+00:00
+comments: true
+tags:
+- python
+- PyConES
+- comunidad
+thumbnailImagePosition: top
+thumbnailImage: https://2019.es.pycon.org/static/img/carousel2.jpg
+---
+
+¡Este año no perdí la <a href="https://2019.es.pycon.org" target="_new">PyConES!</a> En fechas suele competir con mis vacaciones, pero este año las adelanté ya que íbamos a un sitio <a href="https://dendarii.es/trip/canada-2019/" target="_blank">medio frío</a> así que pude reservar el fin de semana el evento. Fue un fin de semana fantástico, lleno de Python, comunidad y buenas charlas.
+
+<!--more-->
+
+La **PyConES** es el evento anual de la <a href="https://es.python.org" target="_blank">Asociación Python España</a> que este año ha reunido a más de 900 personas entre asistentes y patrocinadores. Ha sido un rotundo éxito.
+
+He vuelto con las pilas cargadas a tope, con muchas ganas de trastear en el core de Python y de ir a los talleres de mis <a href="https://www.meetup.com/PyLadiesMadrid/?chapter_analytics_code=UA-99991495-12" target="_blank">Pyladies Locales</a>. La organización fue fantástica, tuvo muchos detalles importantes e interesantes y eso dio lugar a un evento de mucha calidad: había guardería/ludoteca donde dos cuidadoras se encargaban de las más pequeñas mientras madres y padres podían asistir a las charlas o impartirlas con tranquilidad; había intérpretes de signos para personas con problemas de audición y el _community manager_ estuvo atento en todo momento a evitar trolls y a dejar claro el espíritu de la conferencia.
+
+<a href="https://kaleidos.net" target="_blank">Kaleidos</a> patrocinó como todos los años, junto a otros grandes patrocinadores, entre los que había caras conocidas y nuevos compañeros. Confío en que todos hayan comprendido la orientación a la comunidad que tienen actualmente el evento y la asociación.
+
+El viernes tuve el placer de ser _coach_ del taller de DjangoGirls; pasé el día ayudando a tres maravillosas mujeres a hacer su primer blog con Django. Éramos muchas mujeres en la sala con la motivación a tope por aprender y compartir y el día se pasó volando. Zuri, que organizó el taller, tuvo la amabilidad de ofrecerme un espacio para dar una mini-charla y aproveché para contarles a las _recién llegadas_ qué se van a encontrar después de acceder al mundo tecnológico; les hablé del _full stack_, les hablé de lo mucho que apesta el _full stack_ y propuse el _half stack_ como estrategia para ser mejor Pylady, mejor profesional y ser humano más feliz y sostenible.
+
+<img src="https://2019.es.pycon.org/static/img/logo.png" />
+
+Las charlas propiamente dichas fueron sábado y domingo, y aunque pasé mucho tiempo de conversaciones de pasillo, tuve la oportunidad de asistir a unas cuantas charlas estupendas:
+
+* Keynote de Safia Abdalla: una jovencísima Safia nos habló de cómo impulsar y hacer sostenible un producto / comunidad de software libre. Fue una Keynote muy inspiradora y me quedé con ganas de acercarme a Safia a darle las gracias por su charla. De lo mejor de la PyConES.
+
+* Exceptional exceptions de Mario Corchero: Mario es un ponente excepcional (#patapumpish) y nos habló de cómo funcionan las excepciones de Python y de las malas prácticas que solemos cometer. Desafortunadamente no había medido bien el tiempo de la charla y quedó (literalmente) a la mitad, así que espero tener la oportunidad de escuchar la segunda mitad alguna vez :)
+
+* Objetos hashables de Víctor Terrón: no tenía muy claro de qué iba esta charla pero sí tenía claro que no me pierdo una de Víctor; es un ponente buenísimo y en este caso nos acercó los _hashes_ en Python de una forma muy amena y pedagógica.
+
+* Usando Flask en el mundo real de Juan José Lozano Gómez: el nombre explica bien de qué iba la charla, y aunque en general fue introductoria, saqué buenas ideas para llevar al proyecto en el que estoy trabajando actualmente con Flask.
+
+* Keynote de Francisco Ordóñez: Francisco nos habló de Inteligencia artificial, de los "inviernos" que ha vivido, del estado en el que se encuentra y de la proyección que va a tener en su opinión; fue una charla magnífica y bien llevada, con las notas técnicas justas y mucho contexto.
+
+* El Show de Truman de Jimena Escobar: desde su posición como SRE, Jimena nos contó qué herramientas de monitorización usan, cómo y para qué las usan, y cómo afrontan las actuales deficiencias en su sistema de monitorización; una charla sobre "tripas" muy bien llevada e interesante.
+
+* El lado oscuro del Scraping en recruiting de Teresa Salazar: otra charla estupenda en la que Teresa, como _lead_ de _talent acquisition_ (mentalmente yo lo traduzco como jefaza de recursos humanos), nos contó algunas prácticas malas y muy malas en torno al recruiting; su charla estuvo salpicada con muchas anécdotas (en las que te ríes por no llorar) y resultó muy amena.
+
+* Introducción al Testeo con Mocks de Esther Ramos: charla introductoria al testeo con mocks; me gustó mucho porque la ponente fue muy clara, dio algunos consejos que ojalá los hubiera sabido cuando empecé con los mocks (¡oro puro si estás empezando!) y además tenía una presentación maravillosa con gifs muy bonicos :)
+
+* Extendiendo Django, escribe tu propio backend de Javier Abadía: esta seguramente sea una de mis favoritas; Javier empezó con un recorrido sobre ORMs y backends de base de datos, hasta contarnos la necesidad con la que se encontraron en su empresa, para finalmente entrar en detalle cómo montaron su propio backend. Me gustó por la claridad y lo pedagógico, además de que me quedaron ganas de probar a escribir un backend, lo vi asequible y divertido.
+
+* Kenynote de Pablo Galindo: Pablo es _core developer_ de Python, está en la actual junta directiva y da unas charlas únicas sobre agujeros negros. No tengo espacio suficiente para alabar esta charla, en la que nos abrió los ojos sobre los entresijos del desarrollo de Python a muchos niveles. Solo puedo aprovechar este espacio para agradecerle su labor. Sin duda fue un final inmejorable para el evento.
+
+Todas las charlas estarán disponibles en el canal de la <a href="https://www.youtube.com/channel/UCyth_6hqft9a7B_thdwYyww" target="_blank">Asociación</a> cuando estén (como los magos, que nunca llegan tarde ni pronto). Todas estas merecieron mucho la pena, y me quedé con muchas ganas de asistir a <a href="https://pycones19.sched.com/" target="_blank">tantas otras</a>, afortunadamente tendremos los vídeos ;-)
+
+Por último, reitero mis felicitaciones a la organización en Alicante y a la Asociación Python España por este eventazo. ¡Nos vemos en 2020!
