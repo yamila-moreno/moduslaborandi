@@ -2,7 +2,7 @@
 author: yamila
 title: Logging en Python (un tutorial frustrado)
 slug: python-logging
-date: 2018-01-01 14:00:00+00:00
+date: 2018-06-05 14:00:00+00:00
 comments: true
 tags:
 - python
