@@ -42,7 +42,7 @@ Las charlas propiamente dichas fueron sábado y domingo, y aunque pasé mucho ti
 
 * El lado oscuro del Scraping en recruiting de Teresa Salazar: otra charla estupenda en la que Teresa, como _lead_ de _talent acquisition_ (mentalmente yo lo traduzco como jefaza de recursos humanos), nos contó algunas prácticas malas y muy malas en torno al recruiting; su charla estuvo salpicada con muchas anécdotas (en las que te ríes por no llorar) y resultó muy amena.
 
-* Introducción al Testeo con Mocks de Esther Ramos: charla introductoria al testeo con mocks; me gustó mucho porque la ponente fue muy clara, dio algunos consejos que ojalá los hubiera sabido cuando empecé con los mocks (¡oro puro si estás empezando!) y además tenía una presentación maravillosa con gifs muy bonicos :)
+* Introducción al Testeo con Mocks de Ester Ramos: charla introductoria al testeo con mocks; me gustó mucho porque la ponente fue muy clara, dio algunos consejos que ojalá los hubiera sabido cuando empecé con los mocks (¡oro puro si estás empezando!) y además tenía una presentación maravillosa con gifs muy bonicos :)
 
 * Extendiendo Django, escribe tu propio backend de Javier Abadía: esta seguramente sea una de mis favoritas; Javier empezó con un recorrido sobre ORMs y backends de base de datos, hasta contarnos la necesidad con la que se encontraron en su empresa, para finalmente entrar en detalle cómo montaron su propio backend. Me gustó por la claridad y lo pedagógico, además de que me quedaron ganas de probar a escribir un backend, lo vi asequible y divertido.
 
