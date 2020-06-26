@@ -111,7 +111,7 @@ $ hwclock --systohc
 ```sh
 $ vim /etc/hostname
 ```
-Y poner el hosname que queráis.
+Y poner el hostname que queráis.
 
 ### Configurar locales
 Editar el fichero `/etc/locale.conf` y escribir algo similar a (con tus propios valores):
