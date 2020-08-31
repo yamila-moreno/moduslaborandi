@@ -154,7 +154,7 @@ $ passwd
 Instalar el paquete con actualizaciones de seguridad al microcódigo del procesador Intel
 https://wiki.archlinux.org/index.php/Microcode
 ```sh
-$ pacman -s intel-ucode
+$ pacman -S intel-ucode
 ```
 
 El grub detectará que este paquete existe y añadirá automáticamente una línea para activarlo cuando genere el fichero con grub-mkconfig. Para ver si se ha cargado bien, una vez arrancamos linux en host final, escribimos
@@ -170,7 +170,7 @@ $ blkid > borrar # para guardar temporalmente los uuids y poder copiarlo despué
 $ vim /etc/default/grub
 GRUB_CMDLINE_LINUX="cryptdevice=UUID=disc-uuid:cryptroot"
 # siendo el disc-uuid el uuid del disco sin cifrar ojo, no el cryptroot. Guardar y:
-$ grub-install --target=x86_64-efi --efi-directory=/boot --botloader-id=GRUB --recheck
+$ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB --recheck
 $ grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
